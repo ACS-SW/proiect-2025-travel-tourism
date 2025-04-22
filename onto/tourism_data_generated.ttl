@@ -1,0 +1,3364 @@
+@prefix ex: <http://example.org/tourism#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Accra a ex:City ;
+    ex:accommodationCost "266.2"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "98.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "65.5"^^xsd:float ;
+    ex:country "Ghana"^^xsd:string ;
+    ex:groceriesIndex "86.2"^^xsd:float ;
+    ex:hasAttraction ex:Jamestown_Lighthouse,
+        ex:Kwame_Nkrumah_Mausoleum,
+        ex:Labadi_Beach ;
+    ex:localPurchasingPowerIndex "111.7"^^xsd:float ;
+    ex:rentIndex "12.0"^^xsd:float ;
+    ex:restaurantPriceIndex "35.9"^^xsd:float ;
+    ex:transportationCost "74.2"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Alexandria a ex:City ;
+    ex:accommodationCost "121.03"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "51.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "81.4"^^xsd:float ;
+    ex:country "Egypt"^^xsd:string ;
+    ex:groceriesIndex "49.7"^^xsd:float ;
+    ex:hasAttraction ex:Bibliotheca_Alexandrina,
+        <http://example.org/tourism#Pompey's_Pillar>,
+        ex:Qaitbay_Citadel ;
+    ex:localPurchasingPowerIndex "45.6"^^xsd:float ;
+    ex:rentIndex "30.0"^^xsd:float ;
+    ex:restaurantPriceIndex "46.9"^^xsd:float ;
+    ex:transportationCost "146.55"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Algiers a ex:City ;
+    ex:accommodationCost "160.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "104.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "49.4"^^xsd:float ;
+    ex:country "Algeria"^^xsd:string ;
+    ex:groceriesIndex "90.4"^^xsd:float ;
+    ex:hasAttraction ex:Casbah,
+        <http://example.org/tourism#Martyrs'_Memorial>,
+        <http://example.org/tourism#Notre_Dame_d’Afrique> ;
+    ex:localPurchasingPowerIndex "77.3"^^xsd:float ;
+    ex:rentIndex "32.0"^^xsd:float ;
+    ex:restaurantPriceIndex "41.5"^^xsd:float ;
+    ex:transportationCost "183.2"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Amman a ex:City ;
+    ex:accommodationCost "144.28"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "50.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "64.3"^^xsd:float ;
+    ex:country "Jordan"^^xsd:string ;
+    ex:groceriesIndex "47.6"^^xsd:float ;
+    ex:hasAttraction ex:Citadel_Hill,
+        ex:Rainbow_Street,
+        ex:Roman_Amphitheatre ;
+    ex:localPurchasingPowerIndex "52.9"^^xsd:float ;
+    ex:rentIndex "25.3"^^xsd:float ;
+    ex:restaurantPriceIndex "29.3"^^xsd:float ;
+    ex:transportationCost "64.0"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Amsterdam a ex:City ;
+    ex:accommodationCost "240.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "70.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "56.6"^^xsd:float ;
+    ex:country "Netherlands"^^xsd:string ;
+    ex:groceriesIndex "75.0"^^xsd:float ;
+    ex:hasAttraction ex:Anne_Frank_House,
+        ex:Rijksmuseum,
+        ex:Van_Gogh_Museum ;
+    ex:localPurchasingPowerIndex "142.3"^^xsd:float ;
+    ex:rentIndex "41.7"^^xsd:float ;
+    ex:restaurantPriceIndex "67.2"^^xsd:float ;
+    ex:transportationCost "40.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Antananarivo a ex:City ;
+    ex:accommodationCost "93.15"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "39.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "65.6"^^xsd:float ;
+    ex:country "Madagascar"^^xsd:string ;
+    ex:groceriesIndex "52.1"^^xsd:float ;
+    ex:hasAttraction ex:Ambohimanga,
+        ex:Lemur_Park,
+        ex:Rova_Palace ;
+    ex:localPurchasingPowerIndex "20.9"^^xsd:float ;
+    ex:rentIndex "31.9"^^xsd:float ;
+    ex:restaurantPriceIndex "34.6"^^xsd:float ;
+    ex:transportationCost "44.75"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Antwerp a ex:City ;
+    ex:accommodationCost "103.67"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "72.9"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "105.1"^^xsd:float ;
+    ex:country "Belgium"^^xsd:string ;
+    ex:groceriesIndex "49.0"^^xsd:float ;
+    ex:hasAttraction ex:Cathedral_of_Our_Lady,
+        ex:Grote_Markt,
+        ex:Museum_aan_de_Stroom ;
+    ex:localPurchasingPowerIndex "41.0"^^xsd:float ;
+    ex:rentIndex "38.7"^^xsd:float ;
+    ex:restaurantPriceIndex "79.8"^^xsd:float ;
+    ex:transportationCost "231.59"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Arequipa a ex:City ;
+    ex:accommodationCost "197.52"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "88.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "104.0"^^xsd:float ;
+    ex:country "Peru"^^xsd:string ;
+    ex:groceriesIndex "37.9"^^xsd:float ;
+    ex:hasAttraction ex:Misti_Volcano,
+        ex:Plaza_de_Armas,
+        ex:Santa_Catalina_Monastery ;
+    ex:localPurchasingPowerIndex "49.7"^^xsd:float ;
+    ex:rentIndex "27.1"^^xsd:float ;
+    ex:restaurantPriceIndex "74.2"^^xsd:float ;
+    ex:transportationCost "247.58"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Asuncion a ex:City ;
+    ex:accommodationCost "98.4"^^xsd:float ;
+    ex:accommodationType "Villa"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "85.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "69.8"^^xsd:float ;
+    ex:country "Paraguay"^^xsd:string ;
+    ex:groceriesIndex "109.5"^^xsd:float ;
+    ex:hasAttraction ex:Botanical_Garden,
+        ex:Casa_de_la_Independencia,
+        ex:Palacio_de_los_López ;
+    ex:localPurchasingPowerIndex "105.7"^^xsd:float ;
+    ex:rentIndex "19.5"^^xsd:float ;
+    ex:restaurantPriceIndex "48.7"^^xsd:float ;
+    ex:transportationCost "73.2"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Asunción a ex:City ;
+    ex:accommodationCost "168.01"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "75.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "74.4"^^xsd:float ;
+    ex:country "Paraguay"^^xsd:string ;
+    ex:groceriesIndex "76.9"^^xsd:float ;
+    ex:hasAttraction ex:Botanical_Garden,
+        ex:Casa_de_la_Independencia,
+        ex:Palacio_de_los_López ;
+    ex:localPurchasingPowerIndex "42.9"^^xsd:float ;
+    ex:rentIndex "30.3"^^xsd:float ;
+    ex:restaurantPriceIndex "69.4"^^xsd:float ;
+    ex:transportationCost "189.27"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Athens a ex:City ;
+    ex:accommodationCost "140.0"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "55.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "70.1"^^xsd:float ;
+    ex:country "Greece"^^xsd:string ;
+    ex:groceriesIndex "45.8"^^xsd:float ;
+    ex:hasAttraction ex:Acropolis,
+        ex:Parthenon,
+        ex:Plaka_District ;
+    ex:localPurchasingPowerIndex "46.0"^^xsd:float ;
+    ex:rentIndex "22.5"^^xsd:float ;
+    ex:restaurantPriceIndex "35.2"^^xsd:float ;
+    ex:transportationCost "180.0"^^xsd:float ;
+    ex:transportationType "Plane"^^xsd:string .
+
+ex:Auckland a ex:City ;
+    ex:accommodationCost "1400.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "72.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "88.0"^^xsd:float ;
+    ex:country "New Zealand"^^xsd:string ;
+    ex:groceriesIndex "54.3"^^xsd:float ;
+    ex:hasAttraction ex:Auckland_Museum,
+        ex:Sky_Tower,
+        ex:Waiheke_Island ;
+    ex:localPurchasingPowerIndex "60.0"^^xsd:float ;
+    ex:rentIndex "28.0"^^xsd:float ;
+    ex:restaurantPriceIndex "40.0"^^xsd:float ;
+    ex:transportationCost "500.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Baku a ex:City ;
+    ex:accommodationCost "131.1"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "62.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "64.4"^^xsd:float ;
+    ex:country "Azerbaijan"^^xsd:string ;
+    ex:groceriesIndex "40.9"^^xsd:float ;
+    ex:hasAttraction ex:Baku_Boulevard,
+        ex:Flame_Towers,
+        ex:Old_City_\(Icherisheher\) ;
+    ex:localPurchasingPowerIndex "35.2"^^xsd:float ;
+    ex:rentIndex "23.8"^^xsd:float ;
+    ex:restaurantPriceIndex "45.7"^^xsd:float ;
+    ex:transportationCost "132.56"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Bali a ex:City ;
+    ex:accommodationCost "200.0"^^xsd:float ;
+    ex:accommodationType "Villa"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "83.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "62.0"^^xsd:float ;
+    ex:country "Indonesia"^^xsd:string ;
+    ex:groceriesIndex "88.4"^^xsd:float ;
+    ex:hasAttraction ex:Tegallalang_Rice_Terrace,
+        ex:Ubud_Monkey_Forest,
+        ex:Uluwatu_Temple ;
+    ex:localPurchasingPowerIndex "120.3"^^xsd:float ;
+    ex:rentIndex "39.2"^^xsd:float ;
+    ex:restaurantPriceIndex "86.8"^^xsd:float ;
+    ex:transportationCost "140.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Bandung a ex:City ;
+    ex:accommodationCost "119.08"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "42.9"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "81.5"^^xsd:float ;
+    ex:country "Indonesia"^^xsd:string ;
+    ex:groceriesIndex "48.8"^^xsd:float ;
+    ex:hasAttraction ex:Gedung_Sate,
+        ex:Kawah_Putih,
+        ex:Trans_Studio ;
+    ex:localPurchasingPowerIndex "35.2"^^xsd:float ;
+    ex:rentIndex "20.0"^^xsd:float ;
+    ex:restaurantPriceIndex "25.9"^^xsd:float ;
+    ex:transportationCost "76.45"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Bangkok a ex:City ;
+    ex:accommodationCost "100.0"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "45.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "30.3"^^xsd:float ;
+    ex:country "Thailand"^^xsd:string ;
+    ex:groceriesIndex "43.5"^^xsd:float ;
+    ex:hasAttraction ex:Chatuchak_Market,
+        ex:Grand_Palace,
+        ex:Wat_Arun ;
+    ex:localPurchasingPowerIndex "75.0"^^xsd:float ;
+    ex:rentIndex "13.8"^^xsd:float ;
+    ex:restaurantPriceIndex "42.2"^^xsd:float ;
+    ex:transportationCost "10.0"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Barcelona a ex:City ;
+    ex:accommodationCost "160.0"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "64.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "49.6"^^xsd:float ;
+    ex:country "Spain"^^xsd:string ;
+    ex:groceriesIndex "71.2"^^xsd:float ;
+    ex:hasAttraction ex:La_Rambla,
+        ex:Park_Güell,
+        ex:Sagrada_Familia ;
+    ex:localPurchasingPowerIndex "103.7"^^xsd:float ;
+    ex:rentIndex "33.2"^^xsd:float ;
+    ex:restaurantPriceIndex "61.7"^^xsd:float ;
+    ex:transportationCost "20.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Belgrade a ex:City ;
+    ex:accommodationCost "215.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "97.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "80.5"^^xsd:float ;
+    ex:country "Serbia"^^xsd:string ;
+    ex:groceriesIndex "79.5"^^xsd:float ;
+    ex:hasAttraction ex:Kalemegdan_Fortress,
+        ex:Saint_Sava_Temple,
+        ex:Skadarlija ;
+    ex:localPurchasingPowerIndex "109.7"^^xsd:float ;
+    ex:rentIndex "61.1"^^xsd:float ;
+    ex:restaurantPriceIndex "55.1"^^xsd:float ;
+    ex:transportationCost "161.8"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Bergen a ex:City ;
+    ex:accommodationCost "98.93"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "65.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "52.0"^^xsd:float ;
+    ex:country "Norway"^^xsd:string ;
+    ex:groceriesIndex "89.2"^^xsd:float ;
+    ex:hasAttraction ex:Bryggen,
+        ex:Fløibanen,
+        ex:Mount_Ulriken ;
+    ex:localPurchasingPowerIndex "33.2"^^xsd:float ;
+    ex:rentIndex "25.9"^^xsd:float ;
+    ex:restaurantPriceIndex "41.9"^^xsd:float ;
+    ex:transportationCost "249.94"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Berlin a ex:City ;
+    ex:accommodationCost "280.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "64.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "53.8"^^xsd:float ;
+    ex:country "Germany"^^xsd:string ;
+    ex:groceriesIndex "59.3"^^xsd:float ;
+    ex:hasAttraction ex:Berlin_Wall,
+        ex:Brandenburg_Gate,
+        ex:Museum_Island ;
+    ex:localPurchasingPowerIndex "101.1"^^xsd:float ;
+    ex:rentIndex "42.3"^^xsd:float ;
+    ex:restaurantPriceIndex "65.3"^^xsd:float ;
+    ex:transportationCost "140.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Bilbao a ex:City ;
+    ex:accommodationCost "158.98"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "48.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "75.0"^^xsd:float ;
+    ex:country "Spain"^^xsd:string ;
+    ex:groceriesIndex "85.0"^^xsd:float ;
+    ex:hasAttraction ex:Casco_Viejo,
+        ex:Guggenheim_Museum,
+        ex:Zubizuri_Bridge ;
+    ex:localPurchasingPowerIndex "61.9"^^xsd:float ;
+    ex:rentIndex "10.9"^^xsd:float ;
+    ex:restaurantPriceIndex "67.0"^^xsd:float ;
+    ex:transportationCost "188.63"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Bishkek a ex:City ;
+    ex:accommodationCost "80.03"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "40.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "75.4"^^xsd:float ;
+    ex:country "Kyrgyzstan"^^xsd:string ;
+    ex:groceriesIndex "49.3"^^xsd:float ;
+    ex:hasAttraction ex:Ala-Too_Square,
+        ex:Osh_Bazaar,
+        ex:State_Historical_Museum ;
+    ex:localPurchasingPowerIndex "45.1"^^xsd:float ;
+    ex:rentIndex "33.3"^^xsd:float ;
+    ex:restaurantPriceIndex "35.7"^^xsd:float ;
+    ex:transportationCost "157.64"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Bologna a ex:City ;
+    ex:accommodationCost "133.36"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "65.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "52.7"^^xsd:float ;
+    ex:country "Italy"^^xsd:string ;
+    ex:groceriesIndex "36.0"^^xsd:float ;
+    ex:hasAttraction ex:Archiginnasio,
+        ex:Piazza_Maggiore,
+        ex:Two_Towers ;
+    ex:localPurchasingPowerIndex "75.5"^^xsd:float ;
+    ex:rentIndex "36.0"^^xsd:float ;
+    ex:restaurantPriceIndex "32.0"^^xsd:float ;
+    ex:transportationCost "91.38"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Brasilia a ex:City ;
+    ex:accommodationCost "61.85"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "77.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "86.9"^^xsd:float ;
+    ex:country "Brazil"^^xsd:string ;
+    ex:groceriesIndex "63.8"^^xsd:float ;
+    ex:hasAttraction ex:Cathedral_of_Brasilia,
+        ex:JK_Memorial,
+        ex:National_Congress ;
+    ex:localPurchasingPowerIndex "51.5"^^xsd:float ;
+    ex:rentIndex "27.0"^^xsd:float ;
+    ex:restaurantPriceIndex "78.7"^^xsd:float ;
+    ex:transportationCost "129.13"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Bratislava a ex:City ;
+    ex:accommodationCost "233.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "50.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "91.8"^^xsd:float ;
+    ex:country "Slovakia"^^xsd:string ;
+    ex:groceriesIndex "50.3"^^xsd:float ;
+    ex:hasAttraction ex:Bratislava_Castle,
+        ex:Old_Town,
+        ex:UFO_Bridge ;
+    ex:localPurchasingPowerIndex "63.7"^^xsd:float ;
+    ex:rentIndex "32.4"^^xsd:float ;
+    ex:restaurantPriceIndex "53.8"^^xsd:float ;
+    ex:transportationCost "175.4"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Brașov a ex:City ;
+    ex:accommodationCost "50.0"^^xsd:float ;
+    ex:accommodationType "Pensiune"^^xsd:string ;
+    ex:category "Istoric"^^xsd:string ;
+    ex:costOfLivingIndex "38.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "49.1"^^xsd:float ;
+    ex:country "Romania"^^xsd:string ;
+    ex:groceriesIndex "32.5"^^xsd:float ;
+    ex:hasAttraction ex:Biserica_Neagră,
+        ex:Muntele_Tâmpa,
+        ex:Piața_Sfatului ;
+    ex:localPurchasingPowerIndex "32.0"^^xsd:float ;
+    ex:rentIndex "10.5"^^xsd:float ;
+    ex:restaurantPriceIndex "30.5"^^xsd:float ;
+    ex:transportationCost "10.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Bruges a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "52.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "37.0"^^xsd:float ;
+    ex:country "Belgium"^^xsd:string ;
+    ex:groceriesIndex "46.9"^^xsd:float ;
+    ex:hasAttraction ex:Belfry_of_Bruges,
+        ex:Canals_of_Bruges,
+        ex:Market_Square ;
+    ex:localPurchasingPowerIndex "105.0"^^xsd:float ;
+    ex:rentIndex "20.5"^^xsd:float ;
+    ex:restaurantPriceIndex "44.7"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Bucharest a ex:City ;
+    ex:accommodationCost "237.8"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "98.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "58.8"^^xsd:float ;
+    ex:country "Romania"^^xsd:string ;
+    ex:groceriesIndex "65.0"^^xsd:float ;
+    ex:hasAttraction ex:Old_Town,
+        ex:Palace_of_Parliament,
+        ex:Village_Museum ;
+    ex:localPurchasingPowerIndex "79.9"^^xsd:float ;
+    ex:rentIndex "28.0"^^xsd:float ;
+    ex:restaurantPriceIndex "99.3"^^xsd:float ;
+    ex:transportationCost "117.2"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Budapest a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Urban"^^xsd:string ;
+    ex:costOfLivingIndex "56.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "38.5"^^xsd:float ;
+    ex:country "Hungary"^^xsd:string ;
+    ex:groceriesIndex "57.0"^^xsd:float ;
+    ex:hasAttraction ex:Buda_Castle,
+        ex:Parliament_Building,
+        ex:Thermal_Baths ;
+    ex:localPurchasingPowerIndex "78.3"^^xsd:float ;
+    ex:rentIndex "19.2"^^xsd:float ;
+    ex:restaurantPriceIndex "53.3"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Plane"^^xsd:string .
+
+ex:Cali a ex:City ;
+    ex:accommodationCost "63.98"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "42.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "61.9"^^xsd:float ;
+    ex:country "Colombia"^^xsd:string ;
+    ex:groceriesIndex "32.2"^^xsd:float ;
+    ex:hasAttraction ex:Cristo_Rey,
+        ex:San_Antonio_Church,
+        ex:Zoológico_de_Cali ;
+    ex:localPurchasingPowerIndex "21.6"^^xsd:float ;
+    ex:rentIndex "18.1"^^xsd:float ;
+    ex:restaurantPriceIndex "48.6"^^xsd:float ;
+    ex:transportationCost "138.21"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Cancun a ex:City ;
+    ex:accommodationCost "120.0"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "35.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "45.0"^^xsd:float ;
+    ex:country "Mexico"^^xsd:string ;
+    ex:groceriesIndex "43.7"^^xsd:float ;
+    ex:hasAttraction ex:Cancun_Underwater_Museum,
+        ex:Chichen_Itza,
+        ex:Playa_Delfines ;
+    ex:localPurchasingPowerIndex "68.0"^^xsd:float ;
+    ex:rentIndex "15.3"^^xsd:float ;
+    ex:restaurantPriceIndex "28.4"^^xsd:float ;
+    ex:transportationCost "700.0"^^xsd:float ;
+    ex:transportationType "Plane"^^xsd:string .
+
+ex:Cape_Town a ex:City ;
+    ex:accommodationCost "80.0"^^xsd:float ;
+    ex:accommodationType "Guesthouse"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "34.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "40.2"^^xsd:float ;
+    ex:country "South Africa"^^xsd:string ;
+    ex:groceriesIndex "49.3"^^xsd:float ;
+    ex:hasAttraction ex:Cape_Point,
+        ex:Robben_Island,
+        ex:Table_Mountain ;
+    ex:localPurchasingPowerIndex "17.5"^^xsd:float ;
+    ex:rentIndex "5.6"^^xsd:float ;
+    ex:restaurantPriceIndex "18.5"^^xsd:float ;
+    ex:transportationCost "300.0"^^xsd:float ;
+    ex:transportationType "Car"^^xsd:string .
+
+ex:Cartagena a ex:City ;
+    ex:accommodationCost "129.71"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "49.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "62.9"^^xsd:float ;
+    ex:country "Colombia"^^xsd:string ;
+    ex:groceriesIndex "53.6"^^xsd:float ;
+    ex:hasAttraction ex:Castillo_San_Felipe,
+        ex:Rosario_Islands,
+        ex:Walled_City ;
+    ex:localPurchasingPowerIndex "44.7"^^xsd:float ;
+    ex:rentIndex "14.7"^^xsd:float ;
+    ex:restaurantPriceIndex "34.0"^^xsd:float ;
+    ex:transportationCost "80.96"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Chiang_Rai a ex:City ;
+    ex:accommodationCost "98.2"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "45.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "74.1"^^xsd:float ;
+    ex:country "Thailand"^^xsd:string ;
+    ex:groceriesIndex "34.3"^^xsd:float ;
+    ex:hasAttraction ex:Baan_Dam_Museum,
+        ex:Blue_Temple,
+        ex:White_Temple ;
+    ex:localPurchasingPowerIndex "54.6"^^xsd:float ;
+    ex:rentIndex "34.1"^^xsd:float ;
+    ex:restaurantPriceIndex "51.7"^^xsd:float ;
+    ex:transportationCost "71.24"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Chisinau a ex:City ;
+    ex:accommodationCost "174.9"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "91.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "77.3"^^xsd:float ;
+    ex:country "Moldova"^^xsd:string ;
+    ex:groceriesIndex "62.5"^^xsd:float ;
+    ex:hasAttraction ex:Cathedral_Park,
+        ex:National_Museum,
+        ex:Stefan_cel_Mare_Park ;
+    ex:localPurchasingPowerIndex "42.6"^^xsd:float ;
+    ex:rentIndex "30.1"^^xsd:float ;
+    ex:restaurantPriceIndex "30.6"^^xsd:float ;
+    ex:transportationCost "170.32"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Cluj-Napoca a ex:City ;
+    ex:accommodationCost "50.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "43.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "56.2"^^xsd:float ;
+    ex:country "Romania"^^xsd:string ;
+    ex:groceriesIndex "36.0"^^xsd:float ;
+    ex:hasAttraction ex:Biserica_Sf._Mihail,
+        ex:Cetățuia,
+        ex:Grădina_Botanică ;
+    ex:localPurchasingPowerIndex "45.0"^^xsd:float ;
+    ex:rentIndex "12.7"^^xsd:float ;
+    ex:restaurantPriceIndex "37.0"^^xsd:float ;
+    ex:transportationCost "20.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Colombo a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "52.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "34.2"^^xsd:float ;
+    ex:country "Sri Lanka"^^xsd:string ;
+    ex:groceriesIndex "46.4"^^xsd:float ;
+    ex:hasAttraction ex:Galle_Face_Green,
+        ex:Gangaramaya_Temple,
+        ex:National_Museum ;
+    ex:localPurchasingPowerIndex "80.4"^^xsd:float ;
+    ex:rentIndex "15.0"^^xsd:float ;
+    ex:restaurantPriceIndex "50.6"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Copenhagen a ex:City ;
+    ex:accommodationCost "173.8"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "62.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "74.3"^^xsd:float ;
+    ex:country "Denmark"^^xsd:string ;
+    ex:groceriesIndex "63.9"^^xsd:float ;
+    ex:hasAttraction ex:Nyhavn,
+        ex:The_Little_Mermaid,
+        ex:Tivoli_Gardens ;
+    ex:localPurchasingPowerIndex "63.7"^^xsd:float ;
+    ex:rentIndex "28.4"^^xsd:float ;
+    ex:restaurantPriceIndex "46.8"^^xsd:float ;
+    ex:transportationCost "120.4"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Cusco a ex:City ;
+    ex:accommodationCost "117.55"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "67.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "115.4"^^xsd:float ;
+    ex:country "Peru"^^xsd:string ;
+    ex:groceriesIndex "67.8"^^xsd:float ;
+    ex:hasAttraction ex:Qorikancha,
+        ex:Sacsayhuamán,
+        ex:San_Pedro_Market ;
+    ex:localPurchasingPowerIndex "90.0"^^xsd:float ;
+    ex:rentIndex "26.6"^^xsd:float ;
+    ex:restaurantPriceIndex "68.7"^^xsd:float ;
+    ex:transportationCost "143.18"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Dakar a ex:City ;
+    ex:accommodationCost "107.0"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "57.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "61.0"^^xsd:float ;
+    ex:country "Senegal"^^xsd:string ;
+    ex:groceriesIndex "45.3"^^xsd:float ;
+    ex:hasAttraction ex:African_Renaissance_Monument,
+        ex:Gorée_Island,
+        ex:IFAN_Museum ;
+    ex:localPurchasingPowerIndex "33.8"^^xsd:float ;
+    ex:rentIndex "33.7"^^xsd:float ;
+    ex:restaurantPriceIndex "52.1"^^xsd:float ;
+    ex:transportationCost "53.91"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Doha a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Urban"^^xsd:string ;
+    ex:costOfLivingIndex "54.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "40.4"^^xsd:float ;
+    ex:country "Qatar"^^xsd:string ;
+    ex:groceriesIndex "49.6"^^xsd:float ;
+    ex:hasAttraction ex:Museum_of_Islamic_Art,
+        ex:Souq_Waqif,
+        ex:The_Pearl ;
+    ex:localPurchasingPowerIndex "71.4"^^xsd:float ;
+    ex:rentIndex "24.8"^^xsd:float ;
+    ex:restaurantPriceIndex "53.2"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Plane"^^xsd:string .
+
+ex:Dubai a ex:City ;
+    ex:accommodationCost "500.0"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "70.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "52.5"^^xsd:float ;
+    ex:country "United Arab Emirates"^^xsd:string ;
+    ex:groceriesIndex "77.3"^^xsd:float ;
+    ex:hasAttraction ex:Burj_Khalifa,
+        ex:Dubai_Mall,
+        ex:Palm_Jumeirah ;
+    ex:localPurchasingPowerIndex "127.4"^^xsd:float ;
+    ex:rentIndex "33.4"^^xsd:float ;
+    ex:restaurantPriceIndex "62.5"^^xsd:float ;
+    ex:transportationCost "160.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Dublin a ex:City ;
+    ex:accommodationCost "135.63"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "55.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "78.2"^^xsd:float ;
+    ex:country "Ireland"^^xsd:string ;
+    ex:groceriesIndex "48.1"^^xsd:float ;
+    ex:hasAttraction ex:Dublin_Castle,
+        ex:Guinness_Storehouse,
+        ex:Temple_Bar ;
+    ex:localPurchasingPowerIndex "46.7"^^xsd:float ;
+    ex:rentIndex "16.8"^^xsd:float ;
+    ex:restaurantPriceIndex "30.0"^^xsd:float ;
+    ex:transportationCost "128.95"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Essaouira a ex:City ;
+    ex:accommodationCost "118.46"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "63.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "70.2"^^xsd:float ;
+    ex:country "Morocco"^^xsd:string ;
+    ex:groceriesIndex "50.7"^^xsd:float ;
+    ex:hasAttraction ex:Essaouira_Beach,
+        ex:Old_Medina,
+        ex:Skala_de_la_Ville ;
+    ex:localPurchasingPowerIndex "38.6"^^xsd:float ;
+    ex:rentIndex "13.5"^^xsd:float ;
+    ex:restaurantPriceIndex "48.5"^^xsd:float ;
+    ex:transportationCost "70.71"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Genoa a ex:City ;
+    ex:accommodationCost "172.04"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "68.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "41.6"^^xsd:float ;
+    ex:country "Italy"^^xsd:string ;
+    ex:groceriesIndex "60.4"^^xsd:float ;
+    ex:hasAttraction ex:Aquarium_of_Genoa,
+        ex:Piazza_De_Ferrari,
+        ex:Via_Garibaldi ;
+    ex:localPurchasingPowerIndex "62.1"^^xsd:float ;
+    ex:rentIndex "19.8"^^xsd:float ;
+    ex:restaurantPriceIndex "57.7"^^xsd:float ;
+    ex:transportationCost "204.77"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Ghent a ex:City ;
+    ex:accommodationCost "117.62"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "70.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "95.7"^^xsd:float ;
+    ex:country "Belgium"^^xsd:string ;
+    ex:groceriesIndex "84.0"^^xsd:float ;
+    ex:hasAttraction ex:Gravensteen_Castle,
+        ex:Korenlei,
+        <http://example.org/tourism#St._Bavo's_Cathedral> ;
+    ex:localPurchasingPowerIndex "29.1"^^xsd:float ;
+    ex:rentIndex "12.6"^^xsd:float ;
+    ex:restaurantPriceIndex "63.9"^^xsd:float ;
+    ex:transportationCost "235.27"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Granada a ex:City ;
+    ex:accommodationCost "181.87"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "41.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "45.1"^^xsd:float ;
+    ex:country "Spain"^^xsd:string ;
+    ex:groceriesIndex "77.5"^^xsd:float ;
+    ex:hasAttraction ex:Albaicín,
+        ex:Alhambra,
+        ex:Generalife ;
+    ex:localPurchasingPowerIndex "73.4"^^xsd:float ;
+    ex:rentIndex "39.4"^^xsd:float ;
+    ex:restaurantPriceIndex "48.2"^^xsd:float ;
+    ex:transportationCost "299.67"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Graz a ex:City ;
+    ex:accommodationCost "173.21"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "59.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "87.9"^^xsd:float ;
+    ex:country "Austria"^^xsd:string ;
+    ex:groceriesIndex "33.4"^^xsd:float ;
+    ex:hasAttraction ex:Eggenberg_Palace,
+        ex:Murinsel,
+        ex:Schlossberg ;
+    ex:localPurchasingPowerIndex "80.4"^^xsd:float ;
+    ex:rentIndex "17.3"^^xsd:float ;
+    ex:restaurantPriceIndex "66.3"^^xsd:float ;
+    ex:transportationCost "261.98"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Hanoi a ex:City ;
+    ex:accommodationCost "200.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Urban"^^xsd:string ;
+    ex:costOfLivingIndex "65.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "44.7"^^xsd:float ;
+    ex:country "Vietnam"^^xsd:string ;
+    ex:groceriesIndex "66.4"^^xsd:float ;
+    ex:hasAttraction ex:Hoan_Kiem_Lake,
+        ex:Old_Quarter,
+        ex:Temple_of_Literature ;
+    ex:localPurchasingPowerIndex "102.4"^^xsd:float ;
+    ex:rentIndex "22.5"^^xsd:float ;
+    ex:restaurantPriceIndex "59.3"^^xsd:float ;
+    ex:transportationCost "100.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Helsinki a ex:City ;
+    ex:accommodationCost "119.6"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "76.9"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "50.1"^^xsd:float ;
+    ex:country "Finland"^^xsd:string ;
+    ex:groceriesIndex "51.9"^^xsd:float ;
+    ex:hasAttraction ex:Helsinki_Cathedral,
+        ex:Market_Square,
+        ex:Suomenlinna ;
+    ex:localPurchasingPowerIndex "97.3"^^xsd:float ;
+    ex:rentIndex "59.3"^^xsd:float ;
+    ex:restaurantPriceIndex "56.2"^^xsd:float ;
+    ex:transportationCost "171.8"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Hobart a ex:City ;
+    ex:accommodationCost "96.82"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "62.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "45.8"^^xsd:float ;
+    ex:country "Australia"^^xsd:string ;
+    ex:groceriesIndex "31.7"^^xsd:float ;
+    ex:hasAttraction ex:MONA,
+        ex:Mount_Wellington,
+        ex:Salamanca_Market ;
+    ex:localPurchasingPowerIndex "38.1"^^xsd:float ;
+    ex:rentIndex "33.2"^^xsd:float ;
+    ex:restaurantPriceIndex "44.7"^^xsd:float ;
+    ex:transportationCost "133.22"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Iași a ex:City ;
+    ex:accommodationCost "40.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Istoric"^^xsd:string ;
+    ex:costOfLivingIndex "37.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "46.3"^^xsd:float ;
+    ex:country "Romania"^^xsd:string ;
+    ex:groceriesIndex "30.0"^^xsd:float ;
+    ex:hasAttraction ex:Biserica_Trei_Ierarhi,
+        ex:Grădina_Botanică,
+        ex:Palatul_Culturii ;
+    ex:localPurchasingPowerIndex "38.0"^^xsd:float ;
+    ex:rentIndex "9.3"^^xsd:float ;
+    ex:restaurantPriceIndex "28.0"^^xsd:float ;
+    ex:transportationCost "20.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Innsbruck a ex:City ;
+    ex:accommodationCost "119.25"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "34.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "85.4"^^xsd:float ;
+    ex:country "Austria"^^xsd:string ;
+    ex:groceriesIndex "44.7"^^xsd:float ;
+    ex:hasAttraction ex:Alpine_Zoo,
+        ex:Golden_Roof,
+        ex:Nordkette ;
+    ex:localPurchasingPowerIndex "33.9"^^xsd:float ;
+    ex:rentIndex "23.2"^^xsd:float ;
+    ex:restaurantPriceIndex "41.5"^^xsd:float ;
+    ex:transportationCost "290.66"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Islamabad a ex:City ;
+    ex:accommodationCost "96.65"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "38.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "78.6"^^xsd:float ;
+    ex:country "Pakistan"^^xsd:string ;
+    ex:groceriesIndex "49.6"^^xsd:float ;
+    ex:hasAttraction ex:Daman-e-Koh,
+        ex:Faisal_Mosque,
+        ex:Pakistan_Monument ;
+    ex:localPurchasingPowerIndex "58.0"^^xsd:float ;
+    ex:rentIndex "10.9"^^xsd:float ;
+    ex:restaurantPriceIndex "42.6"^^xsd:float ;
+    ex:transportationCost "93.52"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Kathmandu a ex:City ;
+    ex:accommodationCost "85.3"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "35.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "72.5"^^xsd:float ;
+    ex:country "Nepal"^^xsd:string ;
+    ex:groceriesIndex "46.0"^^xsd:float ;
+    ex:hasAttraction ex:Durbar_Square,
+        ex:Pashupatinath_Temple,
+        ex:Swayambhunath ;
+    ex:localPurchasingPowerIndex "53.4"^^xsd:float ;
+    ex:rentIndex "19.0"^^xsd:float ;
+    ex:restaurantPriceIndex "47.6"^^xsd:float ;
+    ex:transportationCost "193.21"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Kigali a ex:City ;
+    ex:accommodationCost "126.71"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "47.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "66.2"^^xsd:float ;
+    ex:country "Rwanda"^^xsd:string ;
+    ex:groceriesIndex "55.8"^^xsd:float ;
+    ex:hasAttraction ex:Camp_Kigali,
+        ex:Inema_Arts_Center,
+        ex:Kigali_Genocide_Memorial ;
+    ex:localPurchasingPowerIndex "56.4"^^xsd:float ;
+    ex:rentIndex "29.4"^^xsd:float ;
+    ex:restaurantPriceIndex "36.0"^^xsd:float ;
+    ex:transportationCost "173.96"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Krakow a ex:City ;
+    ex:accommodationCost "197.14"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "41.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "47.0"^^xsd:float ;
+    ex:country "Poland"^^xsd:string ;
+    ex:groceriesIndex "36.5"^^xsd:float ;
+    ex:hasAttraction ex:Main_Market_Square,
+        <http://example.org/tourism#St._Mary's_Basilica>,
+        ex:Wawel_Castle ;
+    ex:localPurchasingPowerIndex "22.2"^^xsd:float ;
+    ex:rentIndex "24.7"^^xsd:float ;
+    ex:restaurantPriceIndex "38.7"^^xsd:float ;
+    ex:transportationCost "90.31"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Kuala_Lumpur a ex:City ;
+    ex:accommodationCost "120.0"^^xsd:float ;
+    ex:accommodationType "Riad"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "63.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "43.2"^^xsd:float ;
+    ex:country "Malaysia"^^xsd:string ;
+    ex:groceriesIndex "69.5"^^xsd:float ;
+    ex:hasAttraction ex:Batu_Caves,
+        ex:Merdeka_Square,
+        ex:Petronas_Towers ;
+    ex:localPurchasingPowerIndex "102.4"^^xsd:float ;
+    ex:rentIndex "21.0"^^xsd:float ;
+    ex:restaurantPriceIndex "56.3"^^xsd:float ;
+    ex:transportationCost "80.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Lagos a ex:City ;
+    ex:accommodationCost "194.6"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "58.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "95.5"^^xsd:float ;
+    ex:country "Nigeria"^^xsd:string ;
+    ex:groceriesIndex "62.4"^^xsd:float ;
+    ex:hasAttraction ex:Lekki_Conservation_Centre,
+        ex:Nike_Art_Gallery,
+        ex:Tarkwa_Bay ;
+    ex:localPurchasingPowerIndex "105.8"^^xsd:float ;
+    ex:rentIndex "25.4"^^xsd:float ;
+    ex:restaurantPriceIndex "63.7"^^xsd:float ;
+    ex:transportationCost "187.6"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Lecce a ex:City ;
+    ex:accommodationCost "122.91"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "77.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "97.9"^^xsd:float ;
+    ex:country "Italy"^^xsd:string ;
+    ex:groceriesIndex "67.0"^^xsd:float ;
+    ex:hasAttraction ex:Basilica_di_Santa_Croce,
+        ex:Piazza_del_Duomo,
+        ex:Roman_Amphitheatre ;
+    ex:localPurchasingPowerIndex "84.9"^^xsd:float ;
+    ex:rentIndex "43.3"^^xsd:float ;
+    ex:restaurantPriceIndex "29.4"^^xsd:float ;
+    ex:transportationCost "152.29"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Lille a ex:City ;
+    ex:accommodationCost "89.25"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "30.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "100.9"^^xsd:float ;
+    ex:country "France"^^xsd:string ;
+    ex:groceriesIndex "64.6"^^xsd:float ;
+    ex:hasAttraction ex:Grand_Place,
+        ex:Old_Town,
+        ex:Palais_des_Beaux-Arts ;
+    ex:localPurchasingPowerIndex "37.0"^^xsd:float ;
+    ex:rentIndex "29.2"^^xsd:float ;
+    ex:restaurantPriceIndex "58.1"^^xsd:float ;
+    ex:transportationCost "129.9"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Lima a ex:City ;
+    ex:accommodationCost "180.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Beach"^^xsd:string ;
+    ex:costOfLivingIndex "63.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "42.3"^^xsd:float ;
+    ex:country "Peru"^^xsd:string ;
+    ex:groceriesIndex "64.1"^^xsd:float ;
+    ex:hasAttraction ex:Huaca_Pucllana,
+        ex:Larco_Museum,
+        ex:Plaza_Mayor ;
+    ex:localPurchasingPowerIndex "103.5"^^xsd:float ;
+    ex:rentIndex "19.5"^^xsd:float ;
+    ex:restaurantPriceIndex "53.1"^^xsd:float ;
+    ex:transportationCost "30.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Ljubljana a ex:City ;
+    ex:accommodationCost "76.51"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "71.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "109.0"^^xsd:float ;
+    ex:country "Slovenia"^^xsd:string ;
+    ex:groceriesIndex "62.9"^^xsd:float ;
+    ex:hasAttraction ex:Dragon_Bridge,
+        ex:Ljubljana_Castle,
+        ex:Tivoli_Park ;
+    ex:localPurchasingPowerIndex "31.1"^^xsd:float ;
+    ex:rentIndex "40.5"^^xsd:float ;
+    ex:restaurantPriceIndex "60.2"^^xsd:float ;
+    ex:transportationCost "283.95"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:London a ex:City ;
+    ex:accommodationCost "240.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "101.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "74.9"^^xsd:float ;
+    ex:country "UK"^^xsd:string ;
+    ex:groceriesIndex "109.1"^^xsd:float ;
+    ex:hasAttraction ex:Big_Ben,
+        ex:London_Eye,
+        ex:Tower_of_London ;
+    ex:localPurchasingPowerIndex "158.7"^^xsd:float ;
+    ex:rentIndex "46.5"^^xsd:float ;
+    ex:restaurantPriceIndex "97.0"^^xsd:float ;
+    ex:transportationCost "120.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Los_Angeles a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "40.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "29.5"^^xsd:float ;
+    ex:country "USA"^^xsd:string ;
+    ex:groceriesIndex "36.8"^^xsd:float ;
+    ex:hasAttraction ex:Griffith_Observatory,
+        ex:Hollywood_Sign,
+        ex:Santa_Monica_Pier ;
+    ex:localPurchasingPowerIndex "85.8"^^xsd:float ;
+    ex:rentIndex "17.1"^^xsd:float ;
+    ex:restaurantPriceIndex "35.0"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Car rental"^^xsd:string .
+
+ex:Luang_Prabang a ex:City ;
+    ex:accommodationCost "111.16"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "50.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "49.6"^^xsd:float ;
+    ex:country "Laos"^^xsd:string ;
+    ex:groceriesIndex "36.9"^^xsd:float ;
+    ex:hasAttraction ex:Kuang_Si_Falls,
+        ex:Mount_Phousi,
+        ex:Wat_Xieng_Thong ;
+    ex:localPurchasingPowerIndex "35.6"^^xsd:float ;
+    ex:rentIndex "12.9"^^xsd:float ;
+    ex:restaurantPriceIndex "53.4"^^xsd:float ;
+    ex:transportationCost "151.8"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Luxembourg a ex:City ;
+    ex:accommodationCost "127.4"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "89.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "72.3"^^xsd:float ;
+    ex:country "Luxembourg"^^xsd:string ;
+    ex:groceriesIndex "52.7"^^xsd:float ;
+    ex:hasAttraction ex:Bock_Casemates,
+        ex:Grand_Ducal_Palace,
+        ex:Old_Town ;
+    ex:localPurchasingPowerIndex "81.9"^^xsd:float ;
+    ex:rentIndex "11.8"^^xsd:float ;
+    ex:restaurantPriceIndex "87.1"^^xsd:float ;
+    ex:transportationCost "188.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Lviv a ex:City ;
+    ex:accommodationCost "130.19"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "91.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "68.6"^^xsd:float ;
+    ex:country "Ukraine"^^xsd:string ;
+    ex:groceriesIndex "89.5"^^xsd:float ;
+    ex:hasAttraction ex:High_Castle_Park,
+        ex:Lviv_Opera,
+        ex:Market_Square ;
+    ex:localPurchasingPowerIndex "43.8"^^xsd:float ;
+    ex:rentIndex "14.9"^^xsd:float ;
+    ex:restaurantPriceIndex "74.0"^^xsd:float ;
+    ex:transportationCost "182.42"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Manila a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Urban"^^xsd:string ;
+    ex:costOfLivingIndex "54.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "34.8"^^xsd:float ;
+    ex:country "Philippines"^^xsd:string ;
+    ex:groceriesIndex "52.1"^^xsd:float ;
+    ex:hasAttraction ex:Fort_Santiago,
+        ex:Intramuros,
+        ex:Rizal_Park ;
+    ex:localPurchasingPowerIndex "56.3"^^xsd:float ;
+    ex:rentIndex "13.8"^^xsd:float ;
+    ex:restaurantPriceIndex "50.2"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Marrakech a ex:City ;
+    ex:accommodationCost "120.97"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "61.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "61.7"^^xsd:float ;
+    ex:country "Morocco"^^xsd:string ;
+    ex:groceriesIndex "34.1"^^xsd:float ;
+    ex:hasAttraction ex:Bahia_Palace,
+        ex:Jemaa_el-Fnaa,
+        ex:Majorelle_Garden ;
+    ex:localPurchasingPowerIndex "52.6"^^xsd:float ;
+    ex:rentIndex "10.7"^^xsd:float ;
+    ex:restaurantPriceIndex "45.7"^^xsd:float ;
+    ex:transportationCost "69.87"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Marseille a ex:City ;
+    ex:accommodationCost "102.88"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "84.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "109.5"^^xsd:float ;
+    ex:country "France"^^xsd:string ;
+    ex:groceriesIndex "85.8"^^xsd:float ;
+    ex:hasAttraction ex:Calanques_National_Park,
+        ex:Notre-Dame_de_la_Garde,
+        ex:Old_Port ;
+    ex:localPurchasingPowerIndex "57.8"^^xsd:float ;
+    ex:rentIndex "24.4"^^xsd:float ;
+    ex:restaurantPriceIndex "62.9"^^xsd:float ;
+    ex:transportationCost "258.7"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Medellín a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Beach"^^xsd:string ;
+    ex:costOfLivingIndex "52.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "33.2"^^xsd:float ;
+    ex:country "Colombia"^^xsd:string ;
+    ex:groceriesIndex "48.4"^^xsd:float ;
+    ex:hasAttraction ex:Arví_Park,
+        ex:Comuna_13,
+        ex:Plaza_Botero ;
+    ex:localPurchasingPowerIndex "53.0"^^xsd:float ;
+    ex:rentIndex "12.9"^^xsd:float ;
+    ex:restaurantPriceIndex "51.3"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Plane"^^xsd:string .
+
+ex:Minsk a ex:City ;
+    ex:accommodationCost "66.08"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "63.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "56.7"^^xsd:float ;
+    ex:country "Belarus"^^xsd:string ;
+    ex:groceriesIndex "55.9"^^xsd:float ;
+    ex:hasAttraction ex:Gorky_Park,
+        ex:National_Library,
+        ex:Victory_Square ;
+    ex:localPurchasingPowerIndex "45.7"^^xsd:float ;
+    ex:rentIndex "29.1"^^xsd:float ;
+    ex:restaurantPriceIndex "28.6"^^xsd:float ;
+    ex:transportationCost "91.9"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Montevideo a ex:City ;
+    ex:accommodationCost "74.81"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "58.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "67.7"^^xsd:float ;
+    ex:country "Uruguay"^^xsd:string ;
+    ex:groceriesIndex "55.7"^^xsd:float ;
+    ex:hasAttraction ex:Ciudad_Vieja,
+        ex:Mercado_del_Puerto,
+        ex:Rambla ;
+    ex:localPurchasingPowerIndex "64.2"^^xsd:float ;
+    ex:rentIndex "22.4"^^xsd:float ;
+    ex:restaurantPriceIndex "46.6"^^xsd:float ;
+    ex:transportationCost "82.89"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Muscat a ex:City ;
+    ex:accommodationCost "78.27"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "58.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "67.9"^^xsd:float ;
+    ex:country "Oman"^^xsd:string ;
+    ex:groceriesIndex "34.9"^^xsd:float ;
+    ex:hasAttraction ex:Mutrah_Souq,
+        ex:Royal_Opera_House,
+        ex:Sultan_Qaboos_Grand_Mosque ;
+    ex:localPurchasingPowerIndex "27.4"^^xsd:float ;
+    ex:rentIndex "13.4"^^xsd:float ;
+    ex:restaurantPriceIndex "41.1"^^xsd:float ;
+    ex:transportationCost "159.86"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Nairobi a ex:City ;
+    ex:accommodationCost "262.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "85.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "55.0"^^xsd:float ;
+    ex:country "Kenya"^^xsd:string ;
+    ex:groceriesIndex "85.5"^^xsd:float ;
+    ex:hasAttraction ex:Giraffe_Centre,
+        ex:Karen_Blixen_Museum,
+        ex:Nairobi_National_Park ;
+    ex:localPurchasingPowerIndex "105.3"^^xsd:float ;
+    ex:rentIndex "37.3"^^xsd:float ;
+    ex:restaurantPriceIndex "76.1"^^xsd:float ;
+    ex:transportationCost "85.2"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:New_York a ex:City ;
+    ex:accommodationCost "400.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "76.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "72.1"^^xsd:float ;
+    ex:country "USA"^^xsd:string ;
+    ex:groceriesIndex "74.6"^^xsd:float ;
+    ex:hasAttraction ex:Central_Park,
+        ex:Statue_of_Liberty,
+        ex:Times_Square ;
+    ex:localPurchasingPowerIndex "111.1"^^xsd:float ;
+    ex:rentIndex "67.2"^^xsd:float ;
+    ex:restaurantPriceIndex "50.4"^^xsd:float ;
+    ex:transportationCost "200.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:New_York_City a ex:City ;
+    ex:accommodationCost "1600.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Urban"^^xsd:string ;
+    ex:costOfLivingIndex "100.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "140.0"^^xsd:float ;
+    ex:country "USA"^^xsd:string ;
+    ex:groceriesIndex "90.0"^^xsd:float ;
+    ex:hasAttraction ex:Central_Park,
+        ex:Statue_of_Liberty,
+        ex:Times_Square ;
+    ex:localPurchasingPowerIndex "100.0"^^xsd:float ;
+    ex:rentIndex "60.0"^^xsd:float ;
+    ex:restaurantPriceIndex "80.0"^^xsd:float ;
+    ex:transportationCost "500.0"^^xsd:float ;
+    ex:transportationType "Airplane"^^xsd:string .
+
+ex:Nice a ex:City ;
+    ex:accommodationCost "161.51"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "64.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "87.5"^^xsd:float ;
+    ex:country "France"^^xsd:string ;
+    ex:groceriesIndex "48.8"^^xsd:float ;
+    ex:hasAttraction ex:Castle_Hill,
+        ex:Old_Town,
+        ex:Promenade_des_Anglais ;
+    ex:localPurchasingPowerIndex "89.6"^^xsd:float ;
+    ex:rentIndex "34.2"^^xsd:float ;
+    ex:restaurantPriceIndex "45.5"^^xsd:float ;
+    ex:transportationCost "274.65"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Nouakchott a ex:City ;
+    ex:accommodationCost "126.52"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "50.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "71.8"^^xsd:float ;
+    ex:country "Mauritania"^^xsd:string ;
+    ex:groceriesIndex "44.6"^^xsd:float ;
+    ex:hasAttraction ex:National_Museum,
+        ex:Nouakchott_Mosque,
+        ex:Port_de_Peche ;
+    ex:localPurchasingPowerIndex "44.3"^^xsd:float ;
+    ex:rentIndex "11.3"^^xsd:float ;
+    ex:restaurantPriceIndex "40.7"^^xsd:float ;
+    ex:transportationCost "136.01"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Odessa a ex:City ;
+    ex:accommodationCost "106.2"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "34.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "116.8"^^xsd:float ;
+    ex:country "Ukraine"^^xsd:string ;
+    ex:groceriesIndex "50.4"^^xsd:float ;
+    ex:hasAttraction ex:Odessa_Opera_House,
+        ex:Potemkin_Stairs,
+        ex:Primorsky_Boulevard ;
+    ex:localPurchasingPowerIndex "48.3"^^xsd:float ;
+    ex:rentIndex "33.9"^^xsd:float ;
+    ex:restaurantPriceIndex "74.7"^^xsd:float ;
+    ex:transportationCost "71.42"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Oslo a ex:City ;
+    ex:accommodationCost "600.0"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Urban"^^xsd:string ;
+    ex:costOfLivingIndex "64.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "46.0"^^xsd:float ;
+    ex:country "Norway"^^xsd:string ;
+    ex:groceriesIndex "71.9"^^xsd:float ;
+    ex:hasAttraction ex:Akershus_Fortress,
+        ex:Oslo_Opera_House,
+        ex:Vigeland_Park ;
+    ex:localPurchasingPowerIndex "121.0"^^xsd:float ;
+    ex:rentIndex "25.9"^^xsd:float ;
+    ex:restaurantPriceIndex "57.1"^^xsd:float ;
+    ex:transportationCost "240.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Paris a ex:City ;
+    ex:accommodationCost "300.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "76.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "52.1"^^xsd:float ;
+    ex:country "France"^^xsd:string ;
+    ex:groceriesIndex "79.0"^^xsd:float ;
+    ex:hasAttraction ex:Eiffel_Tower,
+        ex:Louvre_Museum,
+        ex:Notre-Dame_Cathedral ;
+    ex:localPurchasingPowerIndex "114.7"^^xsd:float ;
+    ex:rentIndex "26.2"^^xsd:float ;
+    ex:restaurantPriceIndex "73.5"^^xsd:float ;
+    ex:transportationCost "160.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Phnom_Penh a ex:City ;
+    ex:accommodationCost "40.0"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "42.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "54.3"^^xsd:float ;
+    ex:country "Cambodia"^^xsd:string ;
+    ex:groceriesIndex "38.2"^^xsd:float ;
+    ex:hasAttraction ex:Royal_Palace,
+        ex:Tuol_Sleng_Museum,
+        ex:Wat_Phnom ;
+    ex:localPurchasingPowerIndex "18.0"^^xsd:float ;
+    ex:rentIndex "12.3"^^xsd:float ;
+    ex:restaurantPriceIndex "20.5"^^xsd:float ;
+    ex:transportationCost "100.0"^^xsd:float ;
+    ex:transportationType "Plane"^^xsd:string .
+
+ex:Phuket a ex:City ;
+    ex:accommodationCost "160.0"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "85.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "61.8"^^xsd:float ;
+    ex:country "Thailand"^^xsd:string ;
+    ex:groceriesIndex "81.6"^^xsd:float ;
+    ex:hasAttraction ex:Big_Buddha,
+        ex:Patong_Beach,
+        ex:Phuket_Old_Town ;
+    ex:localPurchasingPowerIndex "54.6"^^xsd:float ;
+    ex:rentIndex "36.7"^^xsd:float ;
+    ex:restaurantPriceIndex "83.3"^^xsd:float ;
+    ex:transportationCost "100.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Porto a ex:City ;
+    ex:accommodationCost "167.1"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "47.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "74.5"^^xsd:float ;
+    ex:country "Portugal"^^xsd:string ;
+    ex:groceriesIndex "65.1"^^xsd:float ;
+    ex:hasAttraction ex:Clerigos_Tower,
+        ex:Dom_Luís_I_Bridge,
+        ex:Livraria_Lello ;
+    ex:localPurchasingPowerIndex "52.9"^^xsd:float ;
+    ex:rentIndex "21.7"^^xsd:float ;
+    ex:restaurantPriceIndex "60.3"^^xsd:float ;
+    ex:transportationCost "58.85"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Poznan a ex:City ;
+    ex:accommodationCost "181.71"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "88.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "58.2"^^xsd:float ;
+    ex:country "Poland"^^xsd:string ;
+    ex:groceriesIndex "81.6"^^xsd:float ;
+    ex:hasAttraction ex:Citadel_Park,
+        ex:Imperial_Castle,
+        ex:Old_Market_Square ;
+    ex:localPurchasingPowerIndex "24.0"^^xsd:float ;
+    ex:rentIndex "12.6"^^xsd:float ;
+    ex:restaurantPriceIndex "34.4"^^xsd:float ;
+    ex:transportationCost "291.22"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Prague a ex:City ;
+    ex:accommodationCost "271.2"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "51.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "62.3"^^xsd:float ;
+    ex:country "Czech Republic"^^xsd:string ;
+    ex:groceriesIndex "58.3"^^xsd:float ;
+    ex:hasAttraction ex:Charles_Bridge,
+        ex:Old_Town_Square,
+        ex:Prague_Castle ;
+    ex:localPurchasingPowerIndex "76.3"^^xsd:float ;
+    ex:rentIndex "16.8"^^xsd:float ;
+    ex:restaurantPriceIndex "90.5"^^xsd:float ;
+    ex:transportationCost "149.8"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Puebla a ex:City ;
+    ex:accommodationCost "81.09"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "61.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "83.3"^^xsd:float ;
+    ex:country "Mexico"^^xsd:string ;
+    ex:groceriesIndex "47.6"^^xsd:float ;
+    ex:hasAttraction ex:Amparo_Museum,
+        ex:Cholula_Pyramid,
+        ex:Puebla_Cathedral ;
+    ex:localPurchasingPowerIndex "31.0"^^xsd:float ;
+    ex:rentIndex "20.9"^^xsd:float ;
+    ex:restaurantPriceIndex "34.5"^^xsd:float ;
+    ex:transportationCost "135.94"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Quito a ex:City ;
+    ex:accommodationCost "173.78"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "72.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "96.2"^^xsd:float ;
+    ex:country "Ecuador"^^xsd:string ;
+    ex:groceriesIndex "66.0"^^xsd:float ;
+    ex:hasAttraction ex:Basilica_del_Voto_Nacional,
+        ex:Mitad_del_Mundo,
+        ex:Old_Town ;
+    ex:localPurchasingPowerIndex "22.6"^^xsd:float ;
+    ex:rentIndex "21.0"^^xsd:float ;
+    ex:restaurantPriceIndex "59.6"^^xsd:float ;
+    ex:transportationCost "233.49"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Reykjavik a ex:City ;
+    ex:accommodationCost "246.2"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "51.9"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "40.4"^^xsd:float ;
+    ex:country "Iceland"^^xsd:string ;
+    ex:groceriesIndex "62.6"^^xsd:float ;
+    ex:hasAttraction ex:Blue_Lagoon,
+        ex:Hallgrimskirkja,
+        ex:Harpa_Concert_Hall ;
+    ex:localPurchasingPowerIndex "38.0"^^xsd:float ;
+    ex:rentIndex "14.7"^^xsd:float ;
+    ex:restaurantPriceIndex "31.8"^^xsd:float ;
+    ex:transportationCost "85.2"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Riga a ex:City ;
+    ex:accommodationCost "228.4"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "57.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "80.5"^^xsd:float ;
+    ex:country "Latvia"^^xsd:string ;
+    ex:groceriesIndex "97.3"^^xsd:float ;
+    ex:hasAttraction ex:Freedom_Monument,
+        ex:House_of_the_Blackheads,
+        ex:Riga_Old_Town ;
+    ex:localPurchasingPowerIndex "97.4"^^xsd:float ;
+    ex:rentIndex "22.9"^^xsd:float ;
+    ex:restaurantPriceIndex "50.7"^^xsd:float ;
+    ex:transportationCost "63.8"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Rio_de_Janeiro a ex:City ;
+    ex:accommodationCost "180.0"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "70.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "65.3"^^xsd:float ;
+    ex:country "Brazil"^^xsd:string ;
+    ex:groceriesIndex "84.6"^^xsd:float ;
+    ex:hasAttraction ex:Christ_the_Redeemer,
+        ex:Copacabana_Beach,
+        ex:Sugarloaf_Mountain ;
+    ex:localPurchasingPowerIndex "109.3"^^xsd:float ;
+    ex:rentIndex "59.4"^^xsd:float ;
+    ex:restaurantPriceIndex "46.2"^^xsd:float ;
+    ex:transportationCost "120.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Rome a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Urban"^^xsd:string ;
+    ex:costOfLivingIndex "40.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "28.4"^^xsd:float ;
+    ex:country "Italy"^^xsd:string ;
+    ex:groceriesIndex "43.4"^^xsd:float ;
+    ex:hasAttraction ex:Colosseum,
+        ex:Pantheon,
+        ex:Trevi_Fountain ;
+    ex:localPurchasingPowerIndex "45.4"^^xsd:float ;
+    ex:rentIndex "15.5"^^xsd:float ;
+    ex:restaurantPriceIndex "35.7"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Salta a ex:City ;
+    ex:accommodationCost "140.84"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "78.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "89.5"^^xsd:float ;
+    ex:country "Argentina"^^xsd:string ;
+    ex:groceriesIndex "61.8"^^xsd:float ;
+    ex:hasAttraction ex:Cerro_San_Bernardo,
+        ex:MAAM_Museum,
+        ex:Salta_Cathedral ;
+    ex:localPurchasingPowerIndex "84.0"^^xsd:float ;
+    ex:rentIndex "20.9"^^xsd:float ;
+    ex:restaurantPriceIndex "60.7"^^xsd:float ;
+    ex:transportationCost "187.16"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Santiago a ex:City ;
+    ex:accommodationCost "130.53"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "35.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "115.5"^^xsd:float ;
+    ex:country "Chile"^^xsd:string ;
+    ex:groceriesIndex "77.9"^^xsd:float ;
+    ex:hasAttraction ex:Cerro_San_Cristóbal,
+        ex:La_Moneda_Palace,
+        ex:Plaza_de_Armas ;
+    ex:localPurchasingPowerIndex "46.7"^^xsd:float ;
+    ex:rentIndex "36.6"^^xsd:float ;
+    ex:restaurantPriceIndex "39.6"^^xsd:float ;
+    ex:transportationCost "267.03"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Santorini a ex:City ;
+    ex:accommodationCost "200.0"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "68.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "85.0"^^xsd:float ;
+    ex:country "Greece"^^xsd:string ;
+    ex:groceriesIndex "58.3"^^xsd:float ;
+    ex:hasAttraction ex:Ancient_Thera,
+        ex:Oia_Village,
+        ex:Red_Beach ;
+    ex:localPurchasingPowerIndex "42.0"^^xsd:float ;
+    ex:rentIndex "23.4"^^xsd:float ;
+    ex:restaurantPriceIndex "55.0"^^xsd:float ;
+    ex:transportationCost "30.0"^^xsd:float ;
+    ex:transportationType "Ferry"^^xsd:string .
+
+ex:Sapporo a ex:City ;
+    ex:accommodationCost "117.73"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "62.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "54.0"^^xsd:float ;
+    ex:country "Japan"^^xsd:string ;
+    ex:groceriesIndex "59.1"^^xsd:float ;
+    ex:hasAttraction ex:Historic_Village,
+        ex:Odori_Park,
+        ex:Sapporo_TV_Tower ;
+    ex:localPurchasingPowerIndex "31.3"^^xsd:float ;
+    ex:rentIndex "16.8"^^xsd:float ;
+    ex:restaurantPriceIndex "48.4"^^xsd:float ;
+    ex:transportationCost "40.1"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Sarajevo a ex:City ;
+    ex:accommodationCost "190.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "67.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "52.1"^^xsd:float ;
+    ex:country "Bosnia and Herzegovina"^^xsd:string ;
+    ex:groceriesIndex "95.2"^^xsd:float ;
+    ex:hasAttraction ex:Baščaršija,
+        ex:Gazi_Husrev-beg_Mosque,
+        ex:Latin_Bridge ;
+    ex:localPurchasingPowerIndex "31.2"^^xsd:float ;
+    ex:rentIndex "44.6"^^xsd:float ;
+    ex:restaurantPriceIndex "37.7"^^xsd:float ;
+    ex:transportationCost "127.4"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Seoul a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "41.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "30.5"^^xsd:float ;
+    ex:country "South Korea"^^xsd:string ;
+    ex:groceriesIndex "36.0"^^xsd:float ;
+    ex:hasAttraction ex:Bukchon_Hanok_Village,
+        ex:Gyeongbokgung_Palace,
+        ex:N_Seoul_Tower ;
+    ex:localPurchasingPowerIndex "38.5"^^xsd:float ;
+    ex:rentIndex "19.0"^^xsd:float ;
+    ex:restaurantPriceIndex "38.9"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Subway"^^xsd:string .
+
+ex:Seville a ex:City ;
+    ex:accommodationCost "126.63"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "40.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "55.6"^^xsd:float ;
+    ex:country "Spain"^^xsd:string ;
+    ex:groceriesIndex "46.3"^^xsd:float ;
+    ex:hasAttraction ex:Alcazar,
+        ex:Plaza_de_España,
+        ex:Seville_Cathedral ;
+    ex:localPurchasingPowerIndex "42.5"^^xsd:float ;
+    ex:rentIndex "15.9"^^xsd:float ;
+    ex:restaurantPriceIndex "72.4"^^xsd:float ;
+    ex:transportationCost "266.62"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Sibiu a ex:City ;
+    ex:accommodationCost "40.0"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "37.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "47.8"^^xsd:float ;
+    ex:country "Romania"^^xsd:string ;
+    ex:groceriesIndex "31.0"^^xsd:float ;
+    ex:hasAttraction ex:Muzeul_ASTRA,
+        ex:Piața_Mare,
+        ex:Podul_Minciunilor ;
+    ex:localPurchasingPowerIndex "35.0"^^xsd:float ;
+    ex:rentIndex "10.0"^^xsd:float ;
+    ex:restaurantPriceIndex "29.4"^^xsd:float ;
+    ex:transportationCost "14.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Sighișoara a ex:City ;
+    ex:accommodationCost "30.0"^^xsd:float ;
+    ex:accommodationType "Pensiune"^^xsd:string ;
+    ex:category "Istoric"^^xsd:string ;
+    ex:costOfLivingIndex "30.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "35.0"^^xsd:float ;
+    ex:country "Romania"^^xsd:string ;
+    ex:groceriesIndex "25.0"^^xsd:float ;
+    ex:hasAttraction ex:Biserica_din_Deal,
+        ex:Scara_Acoperită,
+        ex:Turnul_cu_Ceas ;
+    ex:localPurchasingPowerIndex "20.0"^^xsd:float ;
+    ex:rentIndex "5.0"^^xsd:float ;
+    ex:restaurantPriceIndex "20.0"^^xsd:float ;
+    ex:transportationCost "18.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Skopje a ex:City ;
+    ex:accommodationCost "245.2"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "59.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "99.4"^^xsd:float ;
+    ex:country "North Macedonia"^^xsd:string ;
+    ex:groceriesIndex "81.5"^^xsd:float ;
+    ex:hasAttraction ex:Millennium_Cross,
+        ex:Old_Bazaar,
+        ex:Skopje_Fortress ;
+    ex:localPurchasingPowerIndex "124.8"^^xsd:float ;
+    ex:rentIndex "65.2"^^xsd:float ;
+    ex:restaurantPriceIndex "84.7"^^xsd:float ;
+    ex:transportationCost "184.6"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Sofia a ex:City ;
+    ex:accommodationCost "164.4"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "57.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "48.8"^^xsd:float ;
+    ex:country "Bulgaria"^^xsd:string ;
+    ex:groceriesIndex "78.5"^^xsd:float ;
+    ex:hasAttraction ex:Alexander_Nevsky_Cathedral,
+        ex:Boyana_Church,
+        ex:Vitosha_Boulevard ;
+    ex:localPurchasingPowerIndex "143.7"^^xsd:float ;
+    ex:rentIndex "16.5"^^xsd:float ;
+    ex:restaurantPriceIndex "31.9"^^xsd:float ;
+    ex:transportationCost "77.4"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Split a ex:City ;
+    ex:accommodationCost "192.77"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "47.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "113.6"^^xsd:float ;
+    ex:country "Croatia"^^xsd:string ;
+    ex:groceriesIndex "79.0"^^xsd:float ;
+    ex:hasAttraction <http://example.org/tourism#Diocletian's_Palace>,
+        ex:Marjan_Hill,
+        ex:Riva_Waterfront ;
+    ex:localPurchasingPowerIndex "24.6"^^xsd:float ;
+    ex:rentIndex "20.4"^^xsd:float ;
+    ex:restaurantPriceIndex "25.6"^^xsd:float ;
+    ex:transportationCost "142.11"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Sucre a ex:City ;
+    ex:accommodationCost "184.24"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "89.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "96.0"^^xsd:float ;
+    ex:country "Bolivia"^^xsd:string ;
+    ex:groceriesIndex "56.6"^^xsd:float ;
+    ex:hasAttraction ex:Casa_de_la_Libertad,
+        ex:Recoleta,
+        ex:Tarabuco_Market ;
+    ex:localPurchasingPowerIndex "74.4"^^xsd:float ;
+    ex:rentIndex "22.7"^^xsd:float ;
+    ex:restaurantPriceIndex "54.8"^^xsd:float ;
+    ex:transportationCost "225.42"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Sydney a ex:City ;
+    ex:accommodationCost "100.0"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Beach"^^xsd:string ;
+    ex:costOfLivingIndex "72.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "50.2"^^xsd:float ;
+    ex:country "Australia"^^xsd:string ;
+    ex:groceriesIndex "64.8"^^xsd:float ;
+    ex:hasAttraction ex:Bondi_Beach,
+        ex:Harbour_Bridge,
+        ex:Sydney_Opera_House ;
+    ex:localPurchasingPowerIndex "127.2"^^xsd:float ;
+    ex:rentIndex "26.4"^^xsd:float ;
+    ex:restaurantPriceIndex "81.3"^^xsd:float ;
+    ex:transportationCost "240.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Taipei a ex:City ;
+    ex:accommodationCost "60.34"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "61.7"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "62.4"^^xsd:float ;
+    ex:country "Taiwan"^^xsd:string ;
+    ex:groceriesIndex "33.0"^^xsd:float ;
+    ex:hasAttraction ex:Chiang_Kai-shek_Memorial_Hall,
+        ex:Night_Markets,
+        ex:Taipei_101 ;
+    ex:localPurchasingPowerIndex "30.8"^^xsd:float ;
+    ex:rentIndex "26.1"^^xsd:float ;
+    ex:restaurantPriceIndex "54.4"^^xsd:float ;
+    ex:transportationCost "95.17"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Tallinn a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "52.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "39.1"^^xsd:float ;
+    ex:country "Estonia"^^xsd:string ;
+    ex:groceriesIndex "50.6"^^xsd:float ;
+    ex:hasAttraction ex:Alexander_Nevsky_Cathedral,
+        ex:Old_Town,
+        ex:Toompea_Castle ;
+    ex:localPurchasingPowerIndex "68.1"^^xsd:float ;
+    ex:rentIndex "24.2"^^xsd:float ;
+    ex:restaurantPriceIndex "56.2"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Car rental"^^xsd:string .
+
+ex:Tbilisi a ex:City ;
+    ex:accommodationCost "278.4"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "79.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "81.9"^^xsd:float ;
+    ex:country "Georgia"^^xsd:string ;
+    ex:groceriesIndex "71.9"^^xsd:float ;
+    ex:hasAttraction ex:Holy_Trinity_Cathedral,
+        ex:Narikala_Fortress,
+        ex:Old_Town ;
+    ex:localPurchasingPowerIndex "55.8"^^xsd:float ;
+    ex:rentIndex "23.0"^^xsd:float ;
+    ex:restaurantPriceIndex "54.6"^^xsd:float ;
+    ex:transportationCost "69.4"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Thimphu a ex:City ;
+    ex:accommodationCost "105.91"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "54.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "49.1"^^xsd:float ;
+    ex:country "Bhutan"^^xsd:string ;
+    ex:groceriesIndex "40.6"^^xsd:float ;
+    ex:hasAttraction ex:Buddha_Dordenma,
+        ex:Folk_Heritage_Museum,
+        ex:Tashichho_Dzong ;
+    ex:localPurchasingPowerIndex "30.4"^^xsd:float ;
+    ex:rentIndex "24.4"^^xsd:float ;
+    ex:restaurantPriceIndex "50.2"^^xsd:float ;
+    ex:transportationCost "68.22"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Timișoara a ex:City ;
+    ex:accommodationCost "44.0"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Istoric"^^xsd:string ;
+    ex:costOfLivingIndex "40.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "51.2"^^xsd:float ;
+    ex:country "Romania"^^xsd:string ;
+    ex:groceriesIndex "34.0"^^xsd:float ;
+    ex:hasAttraction ex:Bastionul_Theresia,
+        ex:Catedrala_Mitropolitană,
+        ex:Piața_Unirii ;
+    ex:localPurchasingPowerIndex "47.0"^^xsd:float ;
+    ex:rentIndex "11.0"^^xsd:float ;
+    ex:restaurantPriceIndex "30.0"^^xsd:float ;
+    ex:transportationCost "24.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Tirana a ex:City ;
+    ex:accommodationCost "94.54"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "48.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "47.2"^^xsd:float ;
+    ex:country "Albania"^^xsd:string ;
+    ex:groceriesIndex "44.2"^^xsd:float ;
+    ex:hasAttraction <http://example.org/tourism#Bunk'Art>,
+        ex:Pyramid_of_Tirana,
+        ex:Skanderbeg_Square ;
+    ex:localPurchasingPowerIndex "45.0"^^xsd:float ;
+    ex:rentIndex "10.8"^^xsd:float ;
+    ex:restaurantPriceIndex "48.9"^^xsd:float ;
+    ex:transportationCost "75.87"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Tokyo a ex:City ;
+    ex:accommodationCost "140.0"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "76.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "48.9"^^xsd:float ;
+    ex:country "Japan"^^xsd:string ;
+    ex:groceriesIndex "80.8"^^xsd:float ;
+    ex:hasAttraction ex:Senso-ji_Temple,
+        ex:Shibuya_Crossing,
+        ex:Tokyo_Tower ;
+    ex:localPurchasingPowerIndex "43.5"^^xsd:float ;
+    ex:rentIndex "19.0"^^xsd:float ;
+    ex:restaurantPriceIndex "69.4"^^xsd:float ;
+    ex:transportationCost "40.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Tromsø a ex:City ;
+    ex:accommodationCost "89.85"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "61.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "88.2"^^xsd:float ;
+    ex:country "Norway"^^xsd:string ;
+    ex:groceriesIndex "44.2"^^xsd:float ;
+    ex:hasAttraction ex:Arctic_Cathedral,
+        ex:Fjellheisen,
+        ex:Polaria ;
+    ex:localPurchasingPowerIndex "55.3"^^xsd:float ;
+    ex:rentIndex "37.2"^^xsd:float ;
+    ex:restaurantPriceIndex "68.1"^^xsd:float ;
+    ex:transportationCost "171.09"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Tunis a ex:City ;
+    ex:accommodationCost "291.6"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "63.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "78.0"^^xsd:float ;
+    ex:country "Tunisia"^^xsd:string ;
+    ex:groceriesIndex "52.6"^^xsd:float ;
+    ex:hasAttraction ex:Bardo_Museum,
+        ex:Carthage,
+        ex:Medina_of_Tunis ;
+    ex:localPurchasingPowerIndex "112.6"^^xsd:float ;
+    ex:rentIndex "27.8"^^xsd:float ;
+    ex:restaurantPriceIndex "93.1"^^xsd:float ;
+    ex:transportationCost "77.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Turin a ex:City ;
+    ex:accommodationCost "85.1"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "54.9"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "101.4"^^xsd:float ;
+    ex:country "Italy"^^xsd:string ;
+    ex:groceriesIndex "78.7"^^xsd:float ;
+    ex:hasAttraction ex:Egyptian_Museum,
+        ex:Mole_Antonelliana,
+        ex:Piazza_Castello ;
+    ex:localPurchasingPowerIndex "75.3"^^xsd:float ;
+    ex:rentIndex "48.9"^^xsd:float ;
+    ex:restaurantPriceIndex "79.6"^^xsd:float ;
+    ex:transportationCost "74.12"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Turku a ex:City ;
+    ex:accommodationCost "54.6"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "64.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "108.9"^^xsd:float ;
+    ex:country "Finland"^^xsd:string ;
+    ex:groceriesIndex "79.5"^^xsd:float ;
+    ex:hasAttraction ex:Luostarinmäki,
+        ex:Old_Great_Square,
+        ex:Turku_Castle ;
+    ex:localPurchasingPowerIndex "82.6"^^xsd:float ;
+    ex:rentIndex "27.3"^^xsd:float ;
+    ex:restaurantPriceIndex "71.6"^^xsd:float ;
+    ex:transportationCost "55.61"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Târgu_Jiu a ex:City ;
+    ex:accommodationCost "30.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "31.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "37.5"^^xsd:float ;
+    ex:country "Romania"^^xsd:string ;
+    ex:groceriesIndex "26.0"^^xsd:float ;
+    ex:hasAttraction ex:Coloana_Infinitului,
+        ex:Masa_Tăcerii,
+        ex:Poarta_Sărutului ;
+    ex:localPurchasingPowerIndex "25.0"^^xsd:float ;
+    ex:rentIndex "6.0"^^xsd:float ;
+    ex:restaurantPriceIndex "22.0"^^xsd:float ;
+    ex:transportationCost "12.0"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Ushuaia a ex:City ;
+    ex:accommodationCost "59.18"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "93.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "85.4"^^xsd:float ;
+    ex:country "Argentina"^^xsd:string ;
+    ex:groceriesIndex "59.8"^^xsd:float ;
+    ex:hasAttraction ex:Beagle_Channel,
+        ex:Museo_del_Fin_del_Mundo,
+        ex:Tierra_del_Fuego_Park ;
+    ex:localPurchasingPowerIndex "26.2"^^xsd:float ;
+    ex:rentIndex "11.5"^^xsd:float ;
+    ex:restaurantPriceIndex "39.1"^^xsd:float ;
+    ex:transportationCost "248.03"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Valencia a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "52.3"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "35.2"^^xsd:float ;
+    ex:country "Spain"^^xsd:string ;
+    ex:groceriesIndex "56.1"^^xsd:float ;
+    ex:hasAttraction ex:City_of_Arts_and_Sciences,
+        ex:Turia_Gardens,
+        ex:Valencia_Cathedral ;
+    ex:localPurchasingPowerIndex "46.2"^^xsd:float ;
+    ex:rentIndex "16.7"^^xsd:float ;
+    ex:restaurantPriceIndex "43.1"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Plane"^^xsd:string .
+
+ex:Valletta a ex:City ;
+    ex:accommodationCost "98.49"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Adventure"^^xsd:string ;
+    ex:costOfLivingIndex "99.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "44.8"^^xsd:float ;
+    ex:country "Malta"^^xsd:string ;
+    ex:groceriesIndex "36.4"^^xsd:float ;
+    ex:hasAttraction ex:Grand_Harbour,
+        <http://example.org/tourism#St._John's_Co-Cathedral>,
+        ex:Upper_Barrakka_Gardens ;
+    ex:localPurchasingPowerIndex "89.6"^^xsd:float ;
+    ex:rentIndex "21.0"^^xsd:float ;
+    ex:restaurantPriceIndex "41.8"^^xsd:float ;
+    ex:transportationCost "137.07"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Valparaiso a ex:City ;
+    ex:accommodationCost "110.43"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "48.4"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "65.2"^^xsd:float ;
+    ex:country "Chile"^^xsd:string ;
+    ex:groceriesIndex "33.0"^^xsd:float ;
+    ex:hasAttraction ex:Ascensor_Artillería,
+        ex:Cerro_Alegre,
+        ex:La_Sebastiana ;
+    ex:localPurchasingPowerIndex "33.0"^^xsd:float ;
+    ex:rentIndex "32.7"^^xsd:float ;
+    ex:restaurantPriceIndex "37.4"^^xsd:float ;
+    ex:transportationCost "116.01"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Vancouver a ex:City ;
+    ex:accommodationCost "1000.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "73.5"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "95.0"^^xsd:float ;
+    ex:country "Canada"^^xsd:string ;
+    ex:groceriesIndex "58.2"^^xsd:float ;
+    ex:hasAttraction ex:Capilano_Suspension_Bridge,
+        ex:Granville_Island,
+        ex:Stanley_Park ;
+    ex:localPurchasingPowerIndex "70.0"^^xsd:float ;
+    ex:rentIndex "35.0"^^xsd:float ;
+    ex:restaurantPriceIndex "55.0"^^xsd:float ;
+    ex:transportationCost "600.0"^^xsd:float ;
+    ex:transportationType "Airplane"^^xsd:string .
+
+ex:Verona a ex:City ;
+    ex:accommodationCost "159.94"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "83.0"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "51.1"^^xsd:float ;
+    ex:country "Italy"^^xsd:string ;
+    ex:groceriesIndex "58.2"^^xsd:float ;
+    ex:hasAttraction ex:Arena_di_Verona,
+        <http://example.org/tourism#Juliet's_House>,
+        ex:Piazza_delle_Erbe ;
+    ex:localPurchasingPowerIndex "77.9"^^xsd:float ;
+    ex:rentIndex "10.4"^^xsd:float ;
+    ex:restaurantPriceIndex "31.8"^^xsd:float ;
+    ex:transportationCost "109.21"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Vilnius a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Hostel"^^xsd:string ;
+    ex:category "Beach"^^xsd:string ;
+    ex:costOfLivingIndex "52.6"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "33.7"^^xsd:float ;
+    ex:country "Lithuania"^^xsd:string ;
+    ex:groceriesIndex "55.3"^^xsd:float ;
+    ex:hasAttraction <http://example.org/tourism#Gediminas'_Tower>,
+        ex:Old_Town,
+        ex:Vilnius_Cathedral ;
+    ex:localPurchasingPowerIndex "43.7"^^xsd:float ;
+    ex:rentIndex "13.1"^^xsd:float ;
+    ex:restaurantPriceIndex "43.9"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Bus"^^xsd:string .
+
+ex:Warsaw a ex:City ;
+    ex:accommodationCost "152.0"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Cultural"^^xsd:string ;
+    ex:costOfLivingIndex "57.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "62.2"^^xsd:float ;
+    ex:country "Poland"^^xsd:string ;
+    ex:groceriesIndex "107.1"^^xsd:float ;
+    ex:hasAttraction ex:Lazienki_Park,
+        ex:Old_Town,
+        ex:Royal_Castle ;
+    ex:localPurchasingPowerIndex "32.3"^^xsd:float ;
+    ex:rentIndex "29.5"^^xsd:float ;
+    ex:restaurantPriceIndex "50.1"^^xsd:float ;
+    ex:transportationCost "187.0"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Wroclaw a ex:City ;
+    ex:accommodationCost "55.99"^^xsd:float ;
+    ex:accommodationType "Resort"^^xsd:string ;
+    ex:category "Historical"^^xsd:string ;
+    ex:costOfLivingIndex "54.1"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "91.9"^^xsd:float ;
+    ex:country "Poland"^^xsd:string ;
+    ex:groceriesIndex "34.7"^^xsd:float ;
+    ex:hasAttraction ex:Centennial_Hall,
+        ex:Market_Square,
+        ex:Wroclaw_Zoo ;
+    ex:localPurchasingPowerIndex "87.0"^^xsd:float ;
+    ex:rentIndex "19.6"^^xsd:float ;
+    ex:restaurantPriceIndex "40.0"^^xsd:float ;
+    ex:transportationCost "247.46"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Yerevan a ex:City ;
+    ex:accommodationCost "207.4"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "58.2"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "57.4"^^xsd:float ;
+    ex:country "Armenia"^^xsd:string ;
+    ex:groceriesIndex "80.1"^^xsd:float ;
+    ex:hasAttraction ex:Cascades,
+        ex:Matenadaran,
+        ex:Republic_Square ;
+    ex:localPurchasingPowerIndex "120.5"^^xsd:float ;
+    ex:rentIndex "64.5"^^xsd:float ;
+    ex:restaurantPriceIndex "96.3"^^xsd:float ;
+    ex:transportationCost "166.2"^^xsd:float ;
+    ex:transportationType "Flight"^^xsd:string .
+
+ex:Zagreb a ex:City ;
+    ex:accommodationCost "NaN"^^xsd:float ;
+    ex:accommodationType "Airbnb"^^xsd:string ;
+    ex:category "Urban"^^xsd:string ;
+    ex:costOfLivingIndex "53.9"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "34.8"^^xsd:float ;
+    ex:country "Croatia"^^xsd:string ;
+    ex:groceriesIndex "62.0"^^xsd:float ;
+    ex:hasAttraction ex:Ban_Jelačić_Square,
+        ex:Museum_of_Broken_Relationships,
+        ex:Upper_Town ;
+    ex:localPurchasingPowerIndex "32.7"^^xsd:float ;
+    ex:rentIndex "14.1"^^xsd:float ;
+    ex:restaurantPriceIndex "38.8"^^xsd:float ;
+    ex:transportationCost "NaN"^^xsd:float ;
+    ex:transportationType "Car rental"^^xsd:string .
+
+ex:Zanzibar_City a ex:City ;
+    ex:accommodationCost "67.91"^^xsd:float ;
+    ex:accommodationType "Hotel"^^xsd:string ;
+    ex:category "Nature"^^xsd:string ;
+    ex:costOfLivingIndex "36.8"^^xsd:float ;
+    ex:costOfLivingPlusRentIndex "64.1"^^xsd:float ;
+    ex:country "Tanzania"^^xsd:string ;
+    ex:groceriesIndex "41.6"^^xsd:float ;
+    ex:hasAttraction ex:Forodhani_Gardens,
+        ex:Prison_Island,
+        ex:Stone_Town ;
+    ex:localPurchasingPowerIndex "25.9"^^xsd:float ;
+    ex:rentIndex "17.6"^^xsd:float ;
+    ex:restaurantPriceIndex "32.5"^^xsd:float ;
+    ex:transportationCost "137.92"^^xsd:float ;
+    ex:transportationType "Train"^^xsd:string .
+
+ex:Acropolis a ex:Attraction ;
+    rdfs:label "Acropolis"^^xsd:string .
+
+ex:African_Renaissance_Monument a ex:Attraction ;
+    rdfs:label "African Renaissance Monument"^^xsd:string .
+
+ex:Akershus_Fortress a ex:Attraction ;
+    rdfs:label "Akershus Fortress"^^xsd:string .
+
+ex:Ala-Too_Square a ex:Attraction ;
+    rdfs:label "Ala-Too Square"^^xsd:string .
+
+ex:Albaicín a ex:Attraction ;
+    rdfs:label "Albaicín"^^xsd:string .
+
+ex:Alcazar a ex:Attraction ;
+    rdfs:label "Alcazar"^^xsd:string .
+
+ex:Alhambra a ex:Attraction ;
+    rdfs:label "Alhambra"^^xsd:string .
+
+ex:Alpine_Zoo a ex:Attraction ;
+    rdfs:label "Alpine Zoo"^^xsd:string .
+
+ex:Ambohimanga a ex:Attraction ;
+    rdfs:label "Ambohimanga"^^xsd:string .
+
+ex:Amparo_Museum a ex:Attraction ;
+    rdfs:label "Amparo Museum"^^xsd:string .
+
+ex:Ancient_Thera a ex:Attraction ;
+    rdfs:label "Ancient Thera"^^xsd:string .
+
+ex:Anne_Frank_House a ex:Attraction ;
+    rdfs:label "Anne Frank House"^^xsd:string .
+
+ex:Aquarium_of_Genoa a ex:Attraction ;
+    rdfs:label "Aquarium of Genoa"^^xsd:string .
+
+ex:Archiginnasio a ex:Attraction ;
+    rdfs:label "Archiginnasio"^^xsd:string .
+
+ex:Arctic_Cathedral a ex:Attraction ;
+    rdfs:label "Arctic Cathedral"^^xsd:string .
+
+ex:Arena_di_Verona a ex:Attraction ;
+    rdfs:label "Arena di Verona"^^xsd:string .
+
+ex:Arví_Park a ex:Attraction ;
+    rdfs:label "Arví Park"^^xsd:string .
+
+ex:Ascensor_Artillería a ex:Attraction ;
+    rdfs:label "Ascensor Artillería"^^xsd:string .
+
+ex:Auckland_Museum a ex:Attraction ;
+    rdfs:label "Auckland Museum"^^xsd:string .
+
+ex:Baan_Dam_Museum a ex:Attraction ;
+    rdfs:label "Baan Dam Museum"^^xsd:string .
+
+ex:Bahia_Palace a ex:Attraction ;
+    rdfs:label "Bahia Palace"^^xsd:string .
+
+ex:Baku_Boulevard a ex:Attraction ;
+    rdfs:label "Baku Boulevard"^^xsd:string .
+
+ex:Ban_Jelačić_Square a ex:Attraction ;
+    rdfs:label "Ban Jelačić Square"^^xsd:string .
+
+ex:Bardo_Museum a ex:Attraction ;
+    rdfs:label "Bardo Museum"^^xsd:string .
+
+ex:Basilica_del_Voto_Nacional a ex:Attraction ;
+    rdfs:label "Basilica del Voto Nacional"^^xsd:string .
+
+ex:Basilica_di_Santa_Croce a ex:Attraction ;
+    rdfs:label "Basilica di Santa Croce"^^xsd:string .
+
+ex:Bastionul_Theresia a ex:Attraction ;
+    rdfs:label "Bastionul Theresia"^^xsd:string .
+
+ex:Batu_Caves a ex:Attraction ;
+    rdfs:label "Batu Caves"^^xsd:string .
+
+ex:Baščaršija a ex:Attraction ;
+    rdfs:label "Baščaršija"^^xsd:string .
+
+ex:Beagle_Channel a ex:Attraction ;
+    rdfs:label "Beagle Channel"^^xsd:string .
+
+ex:Belfry_of_Bruges a ex:Attraction ;
+    rdfs:label "Belfry of Bruges"^^xsd:string .
+
+ex:Berlin_Wall a ex:Attraction ;
+    rdfs:label "Berlin Wall"^^xsd:string .
+
+ex:Bibliotheca_Alexandrina a ex:Attraction ;
+    rdfs:label "Bibliotheca Alexandrina"^^xsd:string .
+
+ex:Big_Ben a ex:Attraction ;
+    rdfs:label "Big Ben"^^xsd:string .
+
+ex:Big_Buddha a ex:Attraction ;
+    rdfs:label "Big Buddha"^^xsd:string .
+
+ex:Biserica_Neagră a ex:Attraction ;
+    rdfs:label "Biserica Neagră"^^xsd:string .
+
+ex:Biserica_Sf._Mihail a ex:Attraction ;
+    rdfs:label "Biserica Sf. Mihail"^^xsd:string .
+
+ex:Biserica_Trei_Ierarhi a ex:Attraction ;
+    rdfs:label "Biserica Trei Ierarhi"^^xsd:string .
+
+ex:Biserica_din_Deal a ex:Attraction ;
+    rdfs:label "Biserica din Deal"^^xsd:string .
+
+ex:Blue_Lagoon a ex:Attraction ;
+    rdfs:label "Blue Lagoon"^^xsd:string .
+
+ex:Blue_Temple a ex:Attraction ;
+    rdfs:label "Blue Temple"^^xsd:string .
+
+ex:Bock_Casemates a ex:Attraction ;
+    rdfs:label "Bock Casemates"^^xsd:string .
+
+ex:Bondi_Beach a ex:Attraction ;
+    rdfs:label "Bondi Beach"^^xsd:string .
+
+ex:Boyana_Church a ex:Attraction ;
+    rdfs:label "Boyana Church"^^xsd:string .
+
+ex:Brandenburg_Gate a ex:Attraction ;
+    rdfs:label "Brandenburg Gate"^^xsd:string .
+
+ex:Bratislava_Castle a ex:Attraction ;
+    rdfs:label "Bratislava Castle"^^xsd:string .
+
+ex:Bryggen a ex:Attraction ;
+    rdfs:label "Bryggen"^^xsd:string .
+
+ex:Buda_Castle a ex:Attraction ;
+    rdfs:label "Buda Castle"^^xsd:string .
+
+ex:Buddha_Dordenma a ex:Attraction ;
+    rdfs:label "Buddha Dordenma"^^xsd:string .
+
+ex:Bukchon_Hanok_Village a ex:Attraction ;
+    rdfs:label "Bukchon Hanok Village"^^xsd:string .
+
+<http://example.org/tourism#Bunk'Art> a ex:Attraction ;
+    rdfs:label "Bunk'Art"^^xsd:string .
+
+ex:Burj_Khalifa a ex:Attraction ;
+    rdfs:label "Burj Khalifa"^^xsd:string .
+
+ex:Calanques_National_Park a ex:Attraction ;
+    rdfs:label "Calanques National Park"^^xsd:string .
+
+ex:Camp_Kigali a ex:Attraction ;
+    rdfs:label "Camp Kigali"^^xsd:string .
+
+ex:Canals_of_Bruges a ex:Attraction ;
+    rdfs:label "Canals of Bruges"^^xsd:string .
+
+ex:Cancun_Underwater_Museum a ex:Attraction ;
+    rdfs:label "Cancun Underwater Museum"^^xsd:string .
+
+ex:Cape_Point a ex:Attraction ;
+    rdfs:label "Cape Point"^^xsd:string .
+
+ex:Capilano_Suspension_Bridge a ex:Attraction ;
+    rdfs:label "Capilano Suspension Bridge"^^xsd:string .
+
+ex:Carthage a ex:Attraction ;
+    rdfs:label "Carthage"^^xsd:string .
+
+ex:Casa_de_la_Libertad a ex:Attraction ;
+    rdfs:label "Casa de la Libertad"^^xsd:string .
+
+ex:Casbah a ex:Attraction ;
+    rdfs:label "Casbah"^^xsd:string .
+
+ex:Cascades a ex:Attraction ;
+    rdfs:label "Cascades"^^xsd:string .
+
+ex:Casco_Viejo a ex:Attraction ;
+    rdfs:label "Casco Viejo"^^xsd:string .
+
+ex:Castillo_San_Felipe a ex:Attraction ;
+    rdfs:label "Castillo San Felipe"^^xsd:string .
+
+ex:Castle_Hill a ex:Attraction ;
+    rdfs:label "Castle Hill"^^xsd:string .
+
+ex:Catedrala_Mitropolitană a ex:Attraction ;
+    rdfs:label "Catedrala Mitropolitană"^^xsd:string .
+
+ex:Cathedral_Park a ex:Attraction ;
+    rdfs:label "Cathedral Park"^^xsd:string .
+
+ex:Cathedral_of_Brasilia a ex:Attraction ;
+    rdfs:label "Cathedral of Brasilia"^^xsd:string .
+
+ex:Cathedral_of_Our_Lady a ex:Attraction ;
+    rdfs:label "Cathedral of Our Lady"^^xsd:string .
+
+ex:Centennial_Hall a ex:Attraction ;
+    rdfs:label "Centennial Hall"^^xsd:string .
+
+ex:Cerro_Alegre a ex:Attraction ;
+    rdfs:label "Cerro Alegre"^^xsd:string .
+
+ex:Cerro_San_Bernardo a ex:Attraction ;
+    rdfs:label "Cerro San Bernardo"^^xsd:string .
+
+ex:Cerro_San_Cristóbal a ex:Attraction ;
+    rdfs:label "Cerro San Cristóbal"^^xsd:string .
+
+ex:Cetățuia a ex:Attraction ;
+    rdfs:label "Cetățuia"^^xsd:string .
+
+ex:Charles_Bridge a ex:Attraction ;
+    rdfs:label "Charles Bridge"^^xsd:string .
+
+ex:Chatuchak_Market a ex:Attraction ;
+    rdfs:label "Chatuchak Market"^^xsd:string .
+
+ex:Chiang_Kai-shek_Memorial_Hall a ex:Attraction ;
+    rdfs:label "Chiang Kai-shek Memorial Hall"^^xsd:string .
+
+ex:Chichen_Itza a ex:Attraction ;
+    rdfs:label "Chichen Itza"^^xsd:string .
+
+ex:Cholula_Pyramid a ex:Attraction ;
+    rdfs:label "Cholula Pyramid"^^xsd:string .
+
+ex:Christ_the_Redeemer a ex:Attraction ;
+    rdfs:label "Christ the Redeemer"^^xsd:string .
+
+ex:Citadel_Hill a ex:Attraction ;
+    rdfs:label "Citadel Hill"^^xsd:string .
+
+ex:Citadel_Park a ex:Attraction ;
+    rdfs:label "Citadel Park"^^xsd:string .
+
+ex:City_of_Arts_and_Sciences a ex:Attraction ;
+    rdfs:label "City of Arts and Sciences"^^xsd:string .
+
+ex:Ciudad_Vieja a ex:Attraction ;
+    rdfs:label "Ciudad Vieja"^^xsd:string .
+
+ex:Clerigos_Tower a ex:Attraction ;
+    rdfs:label "Clerigos Tower"^^xsd:string .
+
+ex:Coloana_Infinitului a ex:Attraction ;
+    rdfs:label "Coloana Infinitului"^^xsd:string .
+
+ex:Colosseum a ex:Attraction ;
+    rdfs:label "Colosseum"^^xsd:string .
+
+ex:Comuna_13 a ex:Attraction ;
+    rdfs:label "Comuna 13"^^xsd:string .
+
+ex:Copacabana_Beach a ex:Attraction ;
+    rdfs:label "Copacabana Beach"^^xsd:string .
+
+ex:Cristo_Rey a ex:Attraction ;
+    rdfs:label "Cristo Rey"^^xsd:string .
+
+ex:Daman-e-Koh a ex:Attraction ;
+    rdfs:label "Daman-e-Koh"^^xsd:string .
+
+<http://example.org/tourism#Diocletian's_Palace> a ex:Attraction ;
+    rdfs:label "Diocletian's Palace"^^xsd:string .
+
+ex:Dom_Luís_I_Bridge a ex:Attraction ;
+    rdfs:label "Dom Luís I Bridge"^^xsd:string .
+
+ex:Dragon_Bridge a ex:Attraction ;
+    rdfs:label "Dragon Bridge"^^xsd:string .
+
+ex:Dubai_Mall a ex:Attraction ;
+    rdfs:label "Dubai Mall"^^xsd:string .
+
+ex:Dublin_Castle a ex:Attraction ;
+    rdfs:label "Dublin Castle"^^xsd:string .
+
+ex:Durbar_Square a ex:Attraction ;
+    rdfs:label "Durbar Square"^^xsd:string .
+
+ex:Eggenberg_Palace a ex:Attraction ;
+    rdfs:label "Eggenberg Palace"^^xsd:string .
+
+ex:Egyptian_Museum a ex:Attraction ;
+    rdfs:label "Egyptian Museum"^^xsd:string .
+
+ex:Eiffel_Tower a ex:Attraction ;
+    rdfs:label "Eiffel Tower"^^xsd:string .
+
+ex:Essaouira_Beach a ex:Attraction ;
+    rdfs:label "Essaouira Beach"^^xsd:string .
+
+ex:Faisal_Mosque a ex:Attraction ;
+    rdfs:label "Faisal Mosque"^^xsd:string .
+
+ex:Fjellheisen a ex:Attraction ;
+    rdfs:label "Fjellheisen"^^xsd:string .
+
+ex:Flame_Towers a ex:Attraction ;
+    rdfs:label "Flame Towers"^^xsd:string .
+
+ex:Fløibanen a ex:Attraction ;
+    rdfs:label "Fløibanen"^^xsd:string .
+
+ex:Folk_Heritage_Museum a ex:Attraction ;
+    rdfs:label "Folk Heritage Museum"^^xsd:string .
+
+ex:Forodhani_Gardens a ex:Attraction ;
+    rdfs:label "Forodhani Gardens"^^xsd:string .
+
+ex:Fort_Santiago a ex:Attraction ;
+    rdfs:label "Fort Santiago"^^xsd:string .
+
+ex:Freedom_Monument a ex:Attraction ;
+    rdfs:label "Freedom Monument"^^xsd:string .
+
+ex:Galle_Face_Green a ex:Attraction ;
+    rdfs:label "Galle Face Green"^^xsd:string .
+
+ex:Gangaramaya_Temple a ex:Attraction ;
+    rdfs:label "Gangaramaya Temple"^^xsd:string .
+
+ex:Gazi_Husrev-beg_Mosque a ex:Attraction ;
+    rdfs:label "Gazi Husrev-beg Mosque"^^xsd:string .
+
+<http://example.org/tourism#Gediminas'_Tower> a ex:Attraction ;
+    rdfs:label "Gediminas' Tower"^^xsd:string .
+
+ex:Gedung_Sate a ex:Attraction ;
+    rdfs:label "Gedung Sate"^^xsd:string .
+
+ex:Generalife a ex:Attraction ;
+    rdfs:label "Generalife"^^xsd:string .
+
+ex:Giraffe_Centre a ex:Attraction ;
+    rdfs:label "Giraffe Centre"^^xsd:string .
+
+ex:Golden_Roof a ex:Attraction ;
+    rdfs:label "Golden Roof"^^xsd:string .
+
+ex:Gorky_Park a ex:Attraction ;
+    rdfs:label "Gorky Park"^^xsd:string .
+
+ex:Gorée_Island a ex:Attraction ;
+    rdfs:label "Gorée Island"^^xsd:string .
+
+ex:Grand_Ducal_Palace a ex:Attraction ;
+    rdfs:label "Grand Ducal Palace"^^xsd:string .
+
+ex:Grand_Harbour a ex:Attraction ;
+    rdfs:label "Grand Harbour"^^xsd:string .
+
+ex:Grand_Palace a ex:Attraction ;
+    rdfs:label "Grand Palace"^^xsd:string .
+
+ex:Grand_Place a ex:Attraction ;
+    rdfs:label "Grand Place"^^xsd:string .
+
+ex:Granville_Island a ex:Attraction ;
+    rdfs:label "Granville Island"^^xsd:string .
+
+ex:Gravensteen_Castle a ex:Attraction ;
+    rdfs:label "Gravensteen Castle"^^xsd:string .
+
+ex:Griffith_Observatory a ex:Attraction ;
+    rdfs:label "Griffith Observatory"^^xsd:string .
+
+ex:Grote_Markt a ex:Attraction ;
+    rdfs:label "Grote Markt"^^xsd:string .
+
+ex:Guggenheim_Museum a ex:Attraction ;
+    rdfs:label "Guggenheim Museum"^^xsd:string .
+
+ex:Guinness_Storehouse a ex:Attraction ;
+    rdfs:label "Guinness Storehouse"^^xsd:string .
+
+ex:Gyeongbokgung_Palace a ex:Attraction ;
+    rdfs:label "Gyeongbokgung Palace"^^xsd:string .
+
+ex:Hallgrimskirkja a ex:Attraction ;
+    rdfs:label "Hallgrimskirkja"^^xsd:string .
+
+ex:Harbour_Bridge a ex:Attraction ;
+    rdfs:label "Harbour Bridge"^^xsd:string .
+
+ex:Harpa_Concert_Hall a ex:Attraction ;
+    rdfs:label "Harpa Concert Hall"^^xsd:string .
+
+ex:Helsinki_Cathedral a ex:Attraction ;
+    rdfs:label "Helsinki Cathedral"^^xsd:string .
+
+ex:High_Castle_Park a ex:Attraction ;
+    rdfs:label "High Castle Park"^^xsd:string .
+
+ex:Historic_Village a ex:Attraction ;
+    rdfs:label "Historic Village"^^xsd:string .
+
+ex:Hoan_Kiem_Lake a ex:Attraction ;
+    rdfs:label "Hoan Kiem Lake"^^xsd:string .
+
+ex:Hollywood_Sign a ex:Attraction ;
+    rdfs:label "Hollywood Sign"^^xsd:string .
+
+ex:Holy_Trinity_Cathedral a ex:Attraction ;
+    rdfs:label "Holy Trinity Cathedral"^^xsd:string .
+
+ex:House_of_the_Blackheads a ex:Attraction ;
+    rdfs:label "House of the Blackheads"^^xsd:string .
+
+ex:Huaca_Pucllana a ex:Attraction ;
+    rdfs:label "Huaca Pucllana"^^xsd:string .
+
+ex:IFAN_Museum a ex:Attraction ;
+    rdfs:label "IFAN Museum"^^xsd:string .
+
+ex:Imperial_Castle a ex:Attraction ;
+    rdfs:label "Imperial Castle"^^xsd:string .
+
+ex:Inema_Arts_Center a ex:Attraction ;
+    rdfs:label "Inema Arts Center"^^xsd:string .
+
+ex:Intramuros a ex:Attraction ;
+    rdfs:label "Intramuros"^^xsd:string .
+
+ex:JK_Memorial a ex:Attraction ;
+    rdfs:label "JK Memorial"^^xsd:string .
+
+ex:Jamestown_Lighthouse a ex:Attraction ;
+    rdfs:label "Jamestown Lighthouse"^^xsd:string .
+
+ex:Jemaa_el-Fnaa a ex:Attraction ;
+    rdfs:label "Jemaa el-Fnaa"^^xsd:string .
+
+<http://example.org/tourism#Juliet's_House> a ex:Attraction ;
+    rdfs:label "Juliet's House"^^xsd:string .
+
+ex:Kalemegdan_Fortress a ex:Attraction ;
+    rdfs:label "Kalemegdan Fortress"^^xsd:string .
+
+ex:Karen_Blixen_Museum a ex:Attraction ;
+    rdfs:label "Karen Blixen Museum"^^xsd:string .
+
+ex:Kawah_Putih a ex:Attraction ;
+    rdfs:label "Kawah Putih"^^xsd:string .
+
+ex:Kigali_Genocide_Memorial a ex:Attraction ;
+    rdfs:label "Kigali Genocide Memorial"^^xsd:string .
+
+ex:Korenlei a ex:Attraction ;
+    rdfs:label "Korenlei"^^xsd:string .
+
+ex:Kuang_Si_Falls a ex:Attraction ;
+    rdfs:label "Kuang Si Falls"^^xsd:string .
+
+ex:Kwame_Nkrumah_Mausoleum a ex:Attraction ;
+    rdfs:label "Kwame Nkrumah Mausoleum"^^xsd:string .
+
+ex:La_Moneda_Palace a ex:Attraction ;
+    rdfs:label "La Moneda Palace"^^xsd:string .
+
+ex:La_Rambla a ex:Attraction ;
+    rdfs:label "La Rambla"^^xsd:string .
+
+ex:La_Sebastiana a ex:Attraction ;
+    rdfs:label "La Sebastiana"^^xsd:string .
+
+ex:Labadi_Beach a ex:Attraction ;
+    rdfs:label "Labadi Beach"^^xsd:string .
+
+ex:Larco_Museum a ex:Attraction ;
+    rdfs:label "Larco Museum"^^xsd:string .
+
+ex:Latin_Bridge a ex:Attraction ;
+    rdfs:label "Latin Bridge"^^xsd:string .
+
+ex:Lazienki_Park a ex:Attraction ;
+    rdfs:label "Lazienki Park"^^xsd:string .
+
+ex:Lekki_Conservation_Centre a ex:Attraction ;
+    rdfs:label "Lekki Conservation Centre"^^xsd:string .
+
+ex:Lemur_Park a ex:Attraction ;
+    rdfs:label "Lemur Park"^^xsd:string .
+
+ex:Livraria_Lello a ex:Attraction ;
+    rdfs:label "Livraria Lello"^^xsd:string .
+
+ex:Ljubljana_Castle a ex:Attraction ;
+    rdfs:label "Ljubljana Castle"^^xsd:string .
+
+ex:London_Eye a ex:Attraction ;
+    rdfs:label "London Eye"^^xsd:string .
+
+ex:Louvre_Museum a ex:Attraction ;
+    rdfs:label "Louvre Museum"^^xsd:string .
+
+ex:Luostarinmäki a ex:Attraction ;
+    rdfs:label "Luostarinmäki"^^xsd:string .
+
+ex:Lviv_Opera a ex:Attraction ;
+    rdfs:label "Lviv Opera"^^xsd:string .
+
+ex:MAAM_Museum a ex:Attraction ;
+    rdfs:label "MAAM Museum"^^xsd:string .
+
+ex:MONA a ex:Attraction ;
+    rdfs:label "MONA"^^xsd:string .
+
+ex:Main_Market_Square a ex:Attraction ;
+    rdfs:label "Main Market Square"^^xsd:string .
+
+ex:Majorelle_Garden a ex:Attraction ;
+    rdfs:label "Majorelle Garden"^^xsd:string .
+
+ex:Marjan_Hill a ex:Attraction ;
+    rdfs:label "Marjan Hill"^^xsd:string .
+
+<http://example.org/tourism#Martyrs'_Memorial> a ex:Attraction ;
+    rdfs:label "Martyrs' Memorial"^^xsd:string .
+
+ex:Masa_Tăcerii a ex:Attraction ;
+    rdfs:label "Masa Tăcerii"^^xsd:string .
+
+ex:Matenadaran a ex:Attraction ;
+    rdfs:label "Matenadaran"^^xsd:string .
+
+ex:Medina_of_Tunis a ex:Attraction ;
+    rdfs:label "Medina of Tunis"^^xsd:string .
+
+ex:Mercado_del_Puerto a ex:Attraction ;
+    rdfs:label "Mercado del Puerto"^^xsd:string .
+
+ex:Merdeka_Square a ex:Attraction ;
+    rdfs:label "Merdeka Square"^^xsd:string .
+
+ex:Millennium_Cross a ex:Attraction ;
+    rdfs:label "Millennium Cross"^^xsd:string .
+
+ex:Misti_Volcano a ex:Attraction ;
+    rdfs:label "Misti Volcano"^^xsd:string .
+
+ex:Mitad_del_Mundo a ex:Attraction ;
+    rdfs:label "Mitad del Mundo"^^xsd:string .
+
+ex:Mole_Antonelliana a ex:Attraction ;
+    rdfs:label "Mole Antonelliana"^^xsd:string .
+
+ex:Mount_Phousi a ex:Attraction ;
+    rdfs:label "Mount Phousi"^^xsd:string .
+
+ex:Mount_Ulriken a ex:Attraction ;
+    rdfs:label "Mount Ulriken"^^xsd:string .
+
+ex:Mount_Wellington a ex:Attraction ;
+    rdfs:label "Mount Wellington"^^xsd:string .
+
+ex:Muntele_Tâmpa a ex:Attraction ;
+    rdfs:label "Muntele Tâmpa"^^xsd:string .
+
+ex:Murinsel a ex:Attraction ;
+    rdfs:label "Murinsel"^^xsd:string .
+
+ex:Museo_del_Fin_del_Mundo a ex:Attraction ;
+    rdfs:label "Museo del Fin del Mundo"^^xsd:string .
+
+ex:Museum_Island a ex:Attraction ;
+    rdfs:label "Museum Island"^^xsd:string .
+
+ex:Museum_aan_de_Stroom a ex:Attraction ;
+    rdfs:label "Museum aan de Stroom"^^xsd:string .
+
+ex:Museum_of_Broken_Relationships a ex:Attraction ;
+    rdfs:label "Museum of Broken Relationships"^^xsd:string .
+
+ex:Museum_of_Islamic_Art a ex:Attraction ;
+    rdfs:label "Museum of Islamic Art"^^xsd:string .
+
+ex:Mutrah_Souq a ex:Attraction ;
+    rdfs:label "Mutrah Souq"^^xsd:string .
+
+ex:Muzeul_ASTRA a ex:Attraction ;
+    rdfs:label "Muzeul ASTRA"^^xsd:string .
+
+ex:N_Seoul_Tower a ex:Attraction ;
+    rdfs:label "N Seoul Tower"^^xsd:string .
+
+ex:Nairobi_National_Park a ex:Attraction ;
+    rdfs:label "Nairobi National Park"^^xsd:string .
+
+ex:Narikala_Fortress a ex:Attraction ;
+    rdfs:label "Narikala Fortress"^^xsd:string .
+
+ex:National_Congress a ex:Attraction ;
+    rdfs:label "National Congress"^^xsd:string .
+
+ex:National_Library a ex:Attraction ;
+    rdfs:label "National Library"^^xsd:string .
+
+ex:Night_Markets a ex:Attraction ;
+    rdfs:label "Night Markets"^^xsd:string .
+
+ex:Nike_Art_Gallery a ex:Attraction ;
+    rdfs:label "Nike Art Gallery"^^xsd:string .
+
+ex:Nordkette a ex:Attraction ;
+    rdfs:label "Nordkette"^^xsd:string .
+
+ex:Notre-Dame_Cathedral a ex:Attraction ;
+    rdfs:label "Notre-Dame Cathedral"^^xsd:string .
+
+ex:Notre-Dame_de_la_Garde a ex:Attraction ;
+    rdfs:label "Notre-Dame de la Garde"^^xsd:string .
+
+<http://example.org/tourism#Notre_Dame_d’Afrique> a ex:Attraction ;
+    rdfs:label "Notre Dame d’Afrique"^^xsd:string .
+
+ex:Nouakchott_Mosque a ex:Attraction ;
+    rdfs:label "Nouakchott Mosque"^^xsd:string .
+
+ex:Nyhavn a ex:Attraction ;
+    rdfs:label "Nyhavn"^^xsd:string .
+
+ex:Odessa_Opera_House a ex:Attraction ;
+    rdfs:label "Odessa Opera House"^^xsd:string .
+
+ex:Odori_Park a ex:Attraction ;
+    rdfs:label "Odori Park"^^xsd:string .
+
+ex:Oia_Village a ex:Attraction ;
+    rdfs:label "Oia Village"^^xsd:string .
+
+ex:Old_Bazaar a ex:Attraction ;
+    rdfs:label "Old Bazaar"^^xsd:string .
+
+ex:Old_City_\(Icherisheher\) a ex:Attraction ;
+    rdfs:label "Old City (Icherisheher)"^^xsd:string .
+
+ex:Old_Great_Square a ex:Attraction ;
+    rdfs:label "Old Great Square"^^xsd:string .
+
+ex:Old_Market_Square a ex:Attraction ;
+    rdfs:label "Old Market Square"^^xsd:string .
+
+ex:Old_Medina a ex:Attraction ;
+    rdfs:label "Old Medina"^^xsd:string .
+
+ex:Old_Port a ex:Attraction ;
+    rdfs:label "Old Port"^^xsd:string .
+
+ex:Old_Quarter a ex:Attraction ;
+    rdfs:label "Old Quarter"^^xsd:string .
+
+ex:Old_Town_Square a ex:Attraction ;
+    rdfs:label "Old Town Square"^^xsd:string .
+
+ex:Osh_Bazaar a ex:Attraction ;
+    rdfs:label "Osh Bazaar"^^xsd:string .
+
+ex:Oslo_Opera_House a ex:Attraction ;
+    rdfs:label "Oslo Opera House"^^xsd:string .
+
+ex:Pakistan_Monument a ex:Attraction ;
+    rdfs:label "Pakistan Monument"^^xsd:string .
+
+ex:Palace_of_Parliament a ex:Attraction ;
+    rdfs:label "Palace of Parliament"^^xsd:string .
+
+ex:Palais_des_Beaux-Arts a ex:Attraction ;
+    rdfs:label "Palais des Beaux-Arts"^^xsd:string .
+
+ex:Palatul_Culturii a ex:Attraction ;
+    rdfs:label "Palatul Culturii"^^xsd:string .
+
+ex:Palm_Jumeirah a ex:Attraction ;
+    rdfs:label "Palm Jumeirah"^^xsd:string .
+
+ex:Pantheon a ex:Attraction ;
+    rdfs:label "Pantheon"^^xsd:string .
+
+ex:Park_Güell a ex:Attraction ;
+    rdfs:label "Park Güell"^^xsd:string .
+
+ex:Parliament_Building a ex:Attraction ;
+    rdfs:label "Parliament Building"^^xsd:string .
+
+ex:Parthenon a ex:Attraction ;
+    rdfs:label "Parthenon"^^xsd:string .
+
+ex:Pashupatinath_Temple a ex:Attraction ;
+    rdfs:label "Pashupatinath Temple"^^xsd:string .
+
+ex:Patong_Beach a ex:Attraction ;
+    rdfs:label "Patong Beach"^^xsd:string .
+
+ex:Petronas_Towers a ex:Attraction ;
+    rdfs:label "Petronas Towers"^^xsd:string .
+
+ex:Phuket_Old_Town a ex:Attraction ;
+    rdfs:label "Phuket Old Town"^^xsd:string .
+
+ex:Piazza_Castello a ex:Attraction ;
+    rdfs:label "Piazza Castello"^^xsd:string .
+
+ex:Piazza_De_Ferrari a ex:Attraction ;
+    rdfs:label "Piazza De Ferrari"^^xsd:string .
+
+ex:Piazza_Maggiore a ex:Attraction ;
+    rdfs:label "Piazza Maggiore"^^xsd:string .
+
+ex:Piazza_del_Duomo a ex:Attraction ;
+    rdfs:label "Piazza del Duomo"^^xsd:string .
+
+ex:Piazza_delle_Erbe a ex:Attraction ;
+    rdfs:label "Piazza delle Erbe"^^xsd:string .
+
+ex:Piața_Mare a ex:Attraction ;
+    rdfs:label "Piața Mare"^^xsd:string .
+
+ex:Piața_Sfatului a ex:Attraction ;
+    rdfs:label "Piața Sfatului"^^xsd:string .
+
+ex:Piața_Unirii a ex:Attraction ;
+    rdfs:label "Piața Unirii"^^xsd:string .
+
+ex:Plaka_District a ex:Attraction ;
+    rdfs:label "Plaka District"^^xsd:string .
+
+ex:Playa_Delfines a ex:Attraction ;
+    rdfs:label "Playa Delfines"^^xsd:string .
+
+ex:Plaza_Botero a ex:Attraction ;
+    rdfs:label "Plaza Botero"^^xsd:string .
+
+ex:Plaza_Mayor a ex:Attraction ;
+    rdfs:label "Plaza Mayor"^^xsd:string .
+
+ex:Plaza_de_España a ex:Attraction ;
+    rdfs:label "Plaza de España"^^xsd:string .
+
+ex:Poarta_Sărutului a ex:Attraction ;
+    rdfs:label "Poarta Sărutului"^^xsd:string .
+
+ex:Podul_Minciunilor a ex:Attraction ;
+    rdfs:label "Podul Minciunilor"^^xsd:string .
+
+ex:Polaria a ex:Attraction ;
+    rdfs:label "Polaria"^^xsd:string .
+
+<http://example.org/tourism#Pompey's_Pillar> a ex:Attraction ;
+    rdfs:label "Pompey's Pillar"^^xsd:string .
+
+ex:Port_de_Peche a ex:Attraction ;
+    rdfs:label "Port de Peche"^^xsd:string .
+
+ex:Potemkin_Stairs a ex:Attraction ;
+    rdfs:label "Potemkin Stairs"^^xsd:string .
+
+ex:Prague_Castle a ex:Attraction ;
+    rdfs:label "Prague Castle"^^xsd:string .
+
+ex:Primorsky_Boulevard a ex:Attraction ;
+    rdfs:label "Primorsky Boulevard"^^xsd:string .
+
+ex:Prison_Island a ex:Attraction ;
+    rdfs:label "Prison Island"^^xsd:string .
+
+ex:Promenade_des_Anglais a ex:Attraction ;
+    rdfs:label "Promenade des Anglais"^^xsd:string .
+
+ex:Puebla_Cathedral a ex:Attraction ;
+    rdfs:label "Puebla Cathedral"^^xsd:string .
+
+ex:Pyramid_of_Tirana a ex:Attraction ;
+    rdfs:label "Pyramid of Tirana"^^xsd:string .
+
+ex:Qaitbay_Citadel a ex:Attraction ;
+    rdfs:label "Qaitbay Citadel"^^xsd:string .
+
+ex:Qorikancha a ex:Attraction ;
+    rdfs:label "Qorikancha"^^xsd:string .
+
+ex:Rainbow_Street a ex:Attraction ;
+    rdfs:label "Rainbow Street"^^xsd:string .
+
+ex:Rambla a ex:Attraction ;
+    rdfs:label "Rambla"^^xsd:string .
+
+ex:Recoleta a ex:Attraction ;
+    rdfs:label "Recoleta"^^xsd:string .
+
+ex:Red_Beach a ex:Attraction ;
+    rdfs:label "Red Beach"^^xsd:string .
+
+ex:Republic_Square a ex:Attraction ;
+    rdfs:label "Republic Square"^^xsd:string .
+
+ex:Riga_Old_Town a ex:Attraction ;
+    rdfs:label "Riga Old Town"^^xsd:string .
+
+ex:Rijksmuseum a ex:Attraction ;
+    rdfs:label "Rijksmuseum"^^xsd:string .
+
+ex:Riva_Waterfront a ex:Attraction ;
+    rdfs:label "Riva Waterfront"^^xsd:string .
+
+ex:Rizal_Park a ex:Attraction ;
+    rdfs:label "Rizal Park"^^xsd:string .
+
+ex:Robben_Island a ex:Attraction ;
+    rdfs:label "Robben Island"^^xsd:string .
+
+ex:Rosario_Islands a ex:Attraction ;
+    rdfs:label "Rosario Islands"^^xsd:string .
+
+ex:Rova_Palace a ex:Attraction ;
+    rdfs:label "Rova Palace"^^xsd:string .
+
+ex:Royal_Castle a ex:Attraction ;
+    rdfs:label "Royal Castle"^^xsd:string .
+
+ex:Royal_Opera_House a ex:Attraction ;
+    rdfs:label "Royal Opera House"^^xsd:string .
+
+ex:Royal_Palace a ex:Attraction ;
+    rdfs:label "Royal Palace"^^xsd:string .
+
+ex:Sacsayhuamán a ex:Attraction ;
+    rdfs:label "Sacsayhuamán"^^xsd:string .
+
+ex:Sagrada_Familia a ex:Attraction ;
+    rdfs:label "Sagrada Familia"^^xsd:string .
+
+ex:Saint_Sava_Temple a ex:Attraction ;
+    rdfs:label "Saint Sava Temple"^^xsd:string .
+
+ex:Salamanca_Market a ex:Attraction ;
+    rdfs:label "Salamanca Market"^^xsd:string .
+
+ex:Salta_Cathedral a ex:Attraction ;
+    rdfs:label "Salta Cathedral"^^xsd:string .
+
+ex:San_Antonio_Church a ex:Attraction ;
+    rdfs:label "San Antonio Church"^^xsd:string .
+
+ex:San_Pedro_Market a ex:Attraction ;
+    rdfs:label "San Pedro Market"^^xsd:string .
+
+ex:Santa_Catalina_Monastery a ex:Attraction ;
+    rdfs:label "Santa Catalina Monastery"^^xsd:string .
+
+ex:Santa_Monica_Pier a ex:Attraction ;
+    rdfs:label "Santa Monica Pier"^^xsd:string .
+
+ex:Sapporo_TV_Tower a ex:Attraction ;
+    rdfs:label "Sapporo TV Tower"^^xsd:string .
+
+ex:Scara_Acoperită a ex:Attraction ;
+    rdfs:label "Scara Acoperită"^^xsd:string .
+
+ex:Schlossberg a ex:Attraction ;
+    rdfs:label "Schlossberg"^^xsd:string .
+
+ex:Senso-ji_Temple a ex:Attraction ;
+    rdfs:label "Senso-ji Temple"^^xsd:string .
+
+ex:Seville_Cathedral a ex:Attraction ;
+    rdfs:label "Seville Cathedral"^^xsd:string .
+
+ex:Shibuya_Crossing a ex:Attraction ;
+    rdfs:label "Shibuya Crossing"^^xsd:string .
+
+ex:Skadarlija a ex:Attraction ;
+    rdfs:label "Skadarlija"^^xsd:string .
+
+ex:Skala_de_la_Ville a ex:Attraction ;
+    rdfs:label "Skala de la Ville"^^xsd:string .
+
+ex:Skanderbeg_Square a ex:Attraction ;
+    rdfs:label "Skanderbeg Square"^^xsd:string .
+
+ex:Skopje_Fortress a ex:Attraction ;
+    rdfs:label "Skopje Fortress"^^xsd:string .
+
+ex:Sky_Tower a ex:Attraction ;
+    rdfs:label "Sky Tower"^^xsd:string .
+
+ex:Souq_Waqif a ex:Attraction ;
+    rdfs:label "Souq Waqif"^^xsd:string .
+
+<http://example.org/tourism#St._Bavo's_Cathedral> a ex:Attraction ;
+    rdfs:label "St. Bavo's Cathedral"^^xsd:string .
+
+<http://example.org/tourism#St._John's_Co-Cathedral> a ex:Attraction ;
+    rdfs:label "St. John's Co-Cathedral"^^xsd:string .
+
+<http://example.org/tourism#St._Mary's_Basilica> a ex:Attraction ;
+    rdfs:label "St. Mary's Basilica"^^xsd:string .
+
+ex:Stanley_Park a ex:Attraction ;
+    rdfs:label "Stanley Park"^^xsd:string .
+
+ex:State_Historical_Museum a ex:Attraction ;
+    rdfs:label "State Historical Museum"^^xsd:string .
+
+ex:Stefan_cel_Mare_Park a ex:Attraction ;
+    rdfs:label "Stefan cel Mare Park"^^xsd:string .
+
+ex:Stone_Town a ex:Attraction ;
+    rdfs:label "Stone Town"^^xsd:string .
+
+ex:Sugarloaf_Mountain a ex:Attraction ;
+    rdfs:label "Sugarloaf Mountain"^^xsd:string .
+
+ex:Sultan_Qaboos_Grand_Mosque a ex:Attraction ;
+    rdfs:label "Sultan Qaboos Grand Mosque"^^xsd:string .
+
+ex:Suomenlinna a ex:Attraction ;
+    rdfs:label "Suomenlinna"^^xsd:string .
+
+ex:Swayambhunath a ex:Attraction ;
+    rdfs:label "Swayambhunath"^^xsd:string .
+
+ex:Sydney_Opera_House a ex:Attraction ;
+    rdfs:label "Sydney Opera House"^^xsd:string .
+
+ex:Table_Mountain a ex:Attraction ;
+    rdfs:label "Table Mountain"^^xsd:string .
+
+ex:Taipei_101 a ex:Attraction ;
+    rdfs:label "Taipei 101"^^xsd:string .
+
+ex:Tarabuco_Market a ex:Attraction ;
+    rdfs:label "Tarabuco Market"^^xsd:string .
+
+ex:Tarkwa_Bay a ex:Attraction ;
+    rdfs:label "Tarkwa Bay"^^xsd:string .
+
+ex:Tashichho_Dzong a ex:Attraction ;
+    rdfs:label "Tashichho Dzong"^^xsd:string .
+
+ex:Tegallalang_Rice_Terrace a ex:Attraction ;
+    rdfs:label "Tegallalang Rice Terrace"^^xsd:string .
+
+ex:Temple_Bar a ex:Attraction ;
+    rdfs:label "Temple Bar"^^xsd:string .
+
+ex:Temple_of_Literature a ex:Attraction ;
+    rdfs:label "Temple of Literature"^^xsd:string .
+
+ex:The_Little_Mermaid a ex:Attraction ;
+    rdfs:label "The Little Mermaid"^^xsd:string .
+
+ex:The_Pearl a ex:Attraction ;
+    rdfs:label "The Pearl"^^xsd:string .
+
+ex:Thermal_Baths a ex:Attraction ;
+    rdfs:label "Thermal Baths"^^xsd:string .
+
+ex:Tierra_del_Fuego_Park a ex:Attraction ;
+    rdfs:label "Tierra del Fuego Park"^^xsd:string .
+
+ex:Tivoli_Gardens a ex:Attraction ;
+    rdfs:label "Tivoli Gardens"^^xsd:string .
+
+ex:Tivoli_Park a ex:Attraction ;
+    rdfs:label "Tivoli Park"^^xsd:string .
+
+ex:Tokyo_Tower a ex:Attraction ;
+    rdfs:label "Tokyo Tower"^^xsd:string .
+
+ex:Toompea_Castle a ex:Attraction ;
+    rdfs:label "Toompea Castle"^^xsd:string .
+
+ex:Tower_of_London a ex:Attraction ;
+    rdfs:label "Tower of London"^^xsd:string .
+
+ex:Trans_Studio a ex:Attraction ;
+    rdfs:label "Trans Studio"^^xsd:string .
+
+ex:Trevi_Fountain a ex:Attraction ;
+    rdfs:label "Trevi Fountain"^^xsd:string .
+
+ex:Tuol_Sleng_Museum a ex:Attraction ;
+    rdfs:label "Tuol Sleng Museum"^^xsd:string .
+
+ex:Turia_Gardens a ex:Attraction ;
+    rdfs:label "Turia Gardens"^^xsd:string .
+
+ex:Turku_Castle a ex:Attraction ;
+    rdfs:label "Turku Castle"^^xsd:string .
+
+ex:Turnul_cu_Ceas a ex:Attraction ;
+    rdfs:label "Turnul cu Ceas"^^xsd:string .
+
+ex:Two_Towers a ex:Attraction ;
+    rdfs:label "Two Towers"^^xsd:string .
+
+ex:UFO_Bridge a ex:Attraction ;
+    rdfs:label "UFO Bridge"^^xsd:string .
+
+ex:Ubud_Monkey_Forest a ex:Attraction ;
+    rdfs:label "Ubud Monkey Forest"^^xsd:string .
+
+ex:Uluwatu_Temple a ex:Attraction ;
+    rdfs:label "Uluwatu Temple"^^xsd:string .
+
+ex:Upper_Barrakka_Gardens a ex:Attraction ;
+    rdfs:label "Upper Barrakka Gardens"^^xsd:string .
+
+ex:Upper_Town a ex:Attraction ;
+    rdfs:label "Upper Town"^^xsd:string .
+
+ex:Valencia_Cathedral a ex:Attraction ;
+    rdfs:label "Valencia Cathedral"^^xsd:string .
+
+ex:Van_Gogh_Museum a ex:Attraction ;
+    rdfs:label "Van Gogh Museum"^^xsd:string .
+
+ex:Via_Garibaldi a ex:Attraction ;
+    rdfs:label "Via Garibaldi"^^xsd:string .
+
+ex:Victory_Square a ex:Attraction ;
+    rdfs:label "Victory Square"^^xsd:string .
+
+ex:Vigeland_Park a ex:Attraction ;
+    rdfs:label "Vigeland Park"^^xsd:string .
+
+ex:Village_Museum a ex:Attraction ;
+    rdfs:label "Village Museum"^^xsd:string .
+
+ex:Vilnius_Cathedral a ex:Attraction ;
+    rdfs:label "Vilnius Cathedral"^^xsd:string .
+
+ex:Vitosha_Boulevard a ex:Attraction ;
+    rdfs:label "Vitosha Boulevard"^^xsd:string .
+
+ex:Waiheke_Island a ex:Attraction ;
+    rdfs:label "Waiheke Island"^^xsd:string .
+
+ex:Walled_City a ex:Attraction ;
+    rdfs:label "Walled City"^^xsd:string .
+
+ex:Wat_Arun a ex:Attraction ;
+    rdfs:label "Wat Arun"^^xsd:string .
+
+ex:Wat_Phnom a ex:Attraction ;
+    rdfs:label "Wat Phnom"^^xsd:string .
+
+ex:Wat_Xieng_Thong a ex:Attraction ;
+    rdfs:label "Wat Xieng Thong"^^xsd:string .
+
+ex:Wawel_Castle a ex:Attraction ;
+    rdfs:label "Wawel Castle"^^xsd:string .
+
+ex:White_Temple a ex:Attraction ;
+    rdfs:label "White Temple"^^xsd:string .
+
+ex:Wroclaw_Zoo a ex:Attraction ;
+    rdfs:label "Wroclaw Zoo"^^xsd:string .
+
+ex:Zoológico_de_Cali a ex:Attraction ;
+    rdfs:label "Zoológico de Cali"^^xsd:string .
+
+ex:Zubizuri_Bridge a ex:Attraction ;
+    rdfs:label "Zubizuri Bridge"^^xsd:string .
+
+ex:Alexander_Nevsky_Cathedral a ex:Attraction ;
+    rdfs:label "Alexander Nevsky Cathedral"^^xsd:string .
+
+ex:Botanical_Garden a ex:Attraction ;
+    rdfs:label "Botanical Garden"^^xsd:string .
+
+ex:Casa_de_la_Independencia a ex:Attraction ;
+    rdfs:label "Casa de la Independencia"^^xsd:string .
+
+ex:Central_Park a ex:Attraction ;
+    rdfs:label "Central Park"^^xsd:string .
+
+ex:Grădina_Botanică a ex:Attraction ;
+    rdfs:label "Grădina Botanică"^^xsd:string .
+
+ex:Palacio_de_los_López a ex:Attraction ;
+    rdfs:label "Palacio de los López"^^xsd:string .
+
+ex:Plaza_de_Armas a ex:Attraction ;
+    rdfs:label "Plaza de Armas"^^xsd:string .
+
+ex:Roman_Amphitheatre a ex:Attraction ;
+    rdfs:label "Roman Amphitheatre"^^xsd:string .
+
+ex:Statue_of_Liberty a ex:Attraction ;
+    rdfs:label "Statue of Liberty"^^xsd:string .
+
+ex:Times_Square a ex:Attraction ;
+    rdfs:label "Times Square"^^xsd:string .
+
+ex:National_Museum a ex:Attraction ;
+    rdfs:label "National Museum"^^xsd:string .
+
+ex:Market_Square a ex:Attraction ;
+    rdfs:label "Market Square"^^xsd:string .
+
+ex:Old_Town a ex:Attraction ;
+    rdfs:label "Old Town"^^xsd:string .
+
